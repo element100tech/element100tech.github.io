@@ -46,10 +46,7 @@
       @media (max-width: 992px) { .formmicrosoft-contact iframe, .formmicrosoft iframe { max-width: 960px; height: 70vh; min-height: 480px; } } @media (max-width: 576px) 
       { .formmicrosoft-contact iframe, .formmicrosoft iframe { max-width: 100%; height: 60vh; min-height: 360px; } } 
   </style>
-  <style> .brand-text { font-size: 18px; /* adjust size */ font-weight: 1000; line-height: 1; } @media (max-width:767px){ .brand-text { font-size:18px; } } </style>
-  <style> /* Fix the "Element100 technology" brand so it doesn't sit like a subscript */ .navbar-header > .navbar-brand { display: inline-block; /* allow vertical-align to work */ vertical-align: middle; 
-          /* align with the toggle button and navbar */ margin-top: 0 !important; /* remove any accidental offset */ padding: 10px 15px; /* keep spacing consistent */ line-height: 1; /* avoid compressed/subscript look */ font-size: 30px; 
-          /* adjust as needed */ } /* also ensure the toggle button aligns with the brand */ .navbar-header .navbar-toggle { vertical-align: middle; } </style>
+<style> /* If you used a span: <a class="navbar-brand" href="#"><span class="brand-text">Element100 technology</span></a> */ .brand-text { display: inline-block; /* prevents subscript/offset rendering */ vertical-align: middle; /* aligns with the toggle button */ margin: 0; padding: 0; font-size: 18px; /* keep your chosen size */ font-weight: 700; /* 1000 is invalid; use 100-900 (700 is bold) */ line-height: 1; /* avoids compressed line spacing */ } /* Make it a bit smaller on small screens */ @media (max-width: 767px) { .brand-text { font-size: 14px; } } /* Alternative (no HTML change): target the brand link itself .navbar-header > .navbar-brand { display:inline-block; vertical-align: middle; font-size: 18px; font-weight: 700; line-height: 1; } */ </style>
 </head>
 
 <body>
