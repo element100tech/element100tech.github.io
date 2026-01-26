@@ -1,0 +1,44 @@
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #0f172a; // dark scientific look
+  border-radius: 12px;
+}
+
+.metric {
+  text-align: center;
+  padding: 1rem;
+}
+
+.metric-label {
+  display: block;
+  font-size: 0.9rem;
+  color: #94a3b8;
+  margin-bottom: 0.5rem;
+}
+
+.metric-value {
+  display: block;
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: #e5e7eb;
+  line-height: 1;
+}
+
+.metric-unit {
+  display: block;
+  font-size: 0.85rem;
+  color: #cbd5f5;
+  margin-top: 0.25rem;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .metrics {
+    grid-template-columns: 1fr;
+  }
+}
