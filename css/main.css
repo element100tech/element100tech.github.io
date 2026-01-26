@@ -156,7 +156,7 @@ p {
 }
 /* line 15, ../scss/layout/_nav.scss */
 .navbar-default .navbar-brand .brand-logo {
-    height: 70px;            /* adjust logo height */
+    height: 40px;            /* adjust logo height */
     margin-right: 8px;       /* spacing between logo and text */
 }
 /* line 15, ../scss/layout/_nav.scss */
