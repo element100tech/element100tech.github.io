@@ -30,6 +30,13 @@
 @use "card-glass" as *;
 @use "stats" as *;
 
+/* CSS variables for theme/colors/sizes */
+:root {
+  --card-bg: rgba(255, 255, 255, 0.1);
+  --border: rgba(255, 255, 255, 0.2);
+  --radius: 12px;
+}
+
 .card-glass {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(12px);
