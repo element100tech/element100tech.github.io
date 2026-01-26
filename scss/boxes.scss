@@ -1,44 +1,14 @@
-.metrics {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1.5rem;
-  max-width: 900px;
-  margin: 2rem auto;
+/* Glass card - THIS IS THE CSS */
+.card-glass {
+  background: var(--card-bg);           /* semi-transparent white */
+  backdrop-filter: blur(12px);          /* frosted glass blur effect */
+  border: 1px solid var(--border);      /* subtle white border */
+  border-radius: var(--radius);         /* rounded corners */
   padding: 1.5rem;
-  background: #0f172a; // dark scientific look
-  border-radius: 12px;
+  transition: all 0.3s;                 /* smooth hover transition */
 }
 
-.metric {
-  text-align: center;
-  padding: 1rem;
-}
-
-.metric-label {
-  display: block;
-  font-size: 0.9rem;
-  color: #94a3b8;
-  margin-bottom: 0.5rem;
-}
-
-.metric-value {
-  display: block;
-  font-size: 2.2rem;
-  font-weight: 600;
-  color: #e5e7eb;
-  line-height: 1;
-}
-
-.metric-unit {
-  display: block;
-  font-size: 0.85rem;
-  color: #cbd5f5;
-  margin-top: 0.25rem;
-}
-
-/* Responsive */
-@media (max-width: 700px) {
-  .metrics {
-    grid-template-columns: 1fr;
-  }
+.card-glass:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
 }
