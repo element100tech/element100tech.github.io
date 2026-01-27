@@ -330,7 +330,7 @@ p {
 }
 /* line 61, ../scss/modules/_blocks.scss */
 .team-memberCTO-img {
-  height: auto;
+  aspect-ratio: 3 / 1;   /* adjust to match image */
   width: 360px;
   background-image: url("../images/about-us/CTO.png");
   background-size: cover;
