@@ -322,7 +322,7 @@ p {
 /* line 61, ../scss/modules/_blocks.scss */
 .team-memberCEO-img {
   width: 20%;
-  height: 80px;
+  height: 100px;
   background-image: url("../images/about-us/CEO.png");
   background-size: cover;
   background-position: center center;
@@ -330,13 +330,12 @@ p {
 }
 /* line 61, ../scss/modules/_blocks.scss */
 .team-memberCTO-img {
-  width: 50%;
-  height: 80px;
+  width: 20%;
+  height: 100px;
   background-image: url("../images/about-us/CTO.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  margin-bottom: 40px;
 }
 
 /* line 73, ../scss/modules/_blocks.scss */
