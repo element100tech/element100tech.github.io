@@ -78,7 +78,7 @@ body {
   }
 
   .card-glass {
-    padding: 0.1rem;
+    padding: 0.1 0.02 0.1 0.02rem;
   }
 }
 
