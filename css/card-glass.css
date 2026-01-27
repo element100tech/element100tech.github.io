@@ -58,7 +58,7 @@ body {
 
 @media (max-width: 800px) {
   .stats-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 3fr;
   }
 
   .card-title {
@@ -78,7 +78,7 @@ body {
   }
 
   .card-glass {
-    padding: 0.5rem;
+    padding: 0.1rem;
   }
 }
 
