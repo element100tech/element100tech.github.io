@@ -321,7 +321,7 @@ p {
 }
 /* line 61, ../scss/modules/_blocks.scss */
 .team-memberCEO-img {
-  width: 20%;
+  width: 60%;
   height: 100px;
   background-image: url("../images/about-us/CEO.png");
   background-size: cover;
@@ -330,8 +330,8 @@ p {
 }
 /* line 61, ../scss/modules/_blocks.scss */
 .team-memberCTO-img {
-  width: 20%;
-  height: 100px;
+  width: 80%;
+  height: 80px;
   background-image: url("../images/about-us/CTO.png");
   background-size: cover;
   background-position: center center;
