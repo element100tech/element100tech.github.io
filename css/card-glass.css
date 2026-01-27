@@ -55,7 +55,7 @@ body {
   margin-top: 1rem;
 }
 
-@media (max-width: 1068px) {
+@media (max-width: 800px) {
   .stats-grid {
     grid-template-columns: 1fr;
   }
