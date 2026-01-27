@@ -158,7 +158,15 @@ p {
     height: 40px;
     margin-right: 8px;
 }
+.brand-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;          /* space between text and logo */
+}
 
+.brand-logonav {
+  height: 39px;      /* desktop size */
+}
 /* line 15, ../scss/layout/_nav.scss */
 .navbar-default .navbar-brand:hover {
   color: #f2013f;
@@ -895,4 +903,9 @@ table tr td:first-of-type {
 
 .footer-text a:hover {
   text-decoration: none;
+}
+@media (max-width: 768px) {
+  .brand-logonav {
+    height: 24px;    /* smaller logo on phones */
+  }
 }
