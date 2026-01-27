@@ -319,7 +319,16 @@ p {
   margin-bottom: 40px;
   border-top: 5px solid #090909;
 }
-
+/* line 61, ../scss/modules/_blocks.scss */
+.team-memberCEO-img {
+  width: 50%;
+  height: 80px;
+  background-image: url("../images/about-us/CEO.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-bottom: 40px;
+}
 /* line 61, ../scss/modules/_blocks.scss */
 .team-memberCTO-img {
   width: 50%;
