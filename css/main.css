@@ -576,8 +576,8 @@ p {
 .banner-item {
   position: absolute;
   top: auto; /* adjust per screen size */
-  left: 50%; /* horizontally center */
-  transform: translateX(-50%);
+  /*left: 50%; /* horizontally center */
+  /*transform: translateX(-50%);*/
   width: 95%; /* or max-width as needed */
   text-align: center;
 }
