@@ -871,6 +871,16 @@ table tr td:first-of-type {
   .email-us h1 {
     margin-bottom: 100px;
   }
+  .brand-logonav {
+    height: 15px;    /* smaller logo on phones */
+  }
+	.carousel-control {
+		height: 65px;
+	    bottom: -10px;
+	}
+	    .hero-logo {
+        max-width: 350px;
+    }	
 }
 @media (min-width: 992px) {
   /* line 3, ../scss/layout/responsive/_laptop.scss */
@@ -937,16 +947,4 @@ table tr td:first-of-type {
 
 .footer-text a:hover {
   text-decoration: none;
-}
-@media (max-width: 768px) {
-  .brand-logonav {
-    height: 15px;    /* smaller logo on phones */
-  }
-	.carousel-control {
-		height: 65px;
-	    bottom: -10px;
-	}
-	    .hero-logo {
-        max-width: 350px;
-    }
 }
