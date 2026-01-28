@@ -836,7 +836,8 @@ table tr td:first-of-type {
 }
   /* line 28, ../scss/layout/responsive/_tablet.scss */
   .banner-item {
-    top: 35%;
+    /*top: 35%;*/
+	top: auto;
   }
   /* line 31, ../scss/layout/responsive/_tablet.scss */
   .banner-item img {
