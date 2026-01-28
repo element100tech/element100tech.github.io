@@ -797,6 +797,10 @@ table tr td:first-of-type {
 }
 
 @media (min-width: 375px) {
+ .banner {
+  max-width: 300px;
+  max-height: 200px;
+}
   /* line 2, ../scss/layout/responsive/_big-mobile.scss */
   .banner-item {
     top: 5%;
