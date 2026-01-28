@@ -799,7 +799,7 @@ table tr td:first-of-type {
 @media (min-width: 375px) {
  .banner {
   max-width: 300px;
-  max-height: 200px;
+  max-height: 600px;
 }
   /* line 2, ../scss/layout/responsive/_big-mobile.scss */
   .banner-item {
@@ -909,7 +909,7 @@ table tr td:first-of-type {
     font-size: 62px;
   }
   .banner {
-  height: 800px; /* adjust as needed */
+  height: 400px; /* adjust as needed */
   }	 
   /* line 7, ../scss/layout/responsive/_laptop.scss */
   .banner-item img {
@@ -944,7 +944,7 @@ table tr td:first-of-type {
 }
 @media (min-width: 1200px) {
   .banner {
-  height: 900px; /* adjust as needed */
+  height: 500px; /* adjust as needed */
   }	  
   /* line 2, ../scss/layout/responsive/_desktop.scss */
   .banner-item img {
