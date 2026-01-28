@@ -574,6 +574,7 @@ p {
   position: relative;
   /*left: 50%;                  /* move left edge to center of parent */
   /*transform: translateX(-50%); */
+  margin: 0 auto;     /* center horizontally if needed */
   top: 5%;
   width: 100%;
   /*top: auto;*/	
