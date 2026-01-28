@@ -574,11 +574,11 @@ p {
 /* banner carousel */
 /* line 34, ../scss/modules/_components.scss */
 .banner-item {
-  position: absolute;
+  position: relative;
   top: auto; /* adjust per screen size */
   /*left: 50%;*/ /* horizontally center */
   /*transform: translateX(-50%);*/
-  width: 95%; /* or max-width as needed */
+  /*width: 95%;*/ /* or max-width as needed */
   /*text-align: center;*/
 }
 
@@ -938,7 +938,6 @@ table tr td:first-of-type {
 }
 @media (min-width: 1200px) {
   /* line 2, ../scss/layout/responsive/_desktop.scss */
-
   .banner-item img {
     margin-top: -55px;
   }
@@ -965,4 +964,5 @@ table tr td:first-of-type {
 
 .footer-text a:hover {
   text-decoration: none;
+}
 }
