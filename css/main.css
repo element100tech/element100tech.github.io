@@ -441,6 +441,7 @@ p {
 /* line 55, ../scss/modules/_sections.scss */
 .about-banner {
   background-color: #f2013f;
+  height: auto;       /* let content define height */
 }
 .about-banner-wrapper.full-height {
     height: auto;       /* let content define height */
