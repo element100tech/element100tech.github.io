@@ -578,7 +578,7 @@ p {
 /* banner carousel */
 /* line 34, ../scss/modules/_components.scss */
 .banner-item {
-  position: relative;
+  position: absolute;
   top: auto; /* adjust per screen size */
   left: 50%; /* horizontally center */
   transform: translateX(-50%);
