@@ -408,6 +408,7 @@ p {
   background-color: #f2013f;
   max-width: 700px;
 }
+
 /* line 14, ../scss/modules/_sections.scss */
 .banner .container {
   position: relative;
@@ -569,9 +570,15 @@ p {
 
 /* banner carousel */
 /* line 34, ../scss/modules/_components.scss */
-.banner-item {
+/*.banner-item {
   position: absolute;
   top: 20%;
+}*/
+.banner-item {
+  display: flex;
+  align-items: center;   /* vertical centering */
+  justify-content: center; /* horizontal centering */
+  height: 100vh;         /* full viewport height */
 }
 /* line 38, ../scss/modules/_components.scss */
 /*.banner-item img {
