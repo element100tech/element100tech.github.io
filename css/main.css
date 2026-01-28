@@ -300,7 +300,7 @@ p {
 .hero-logo {
     display: block;
     margin: 20px auto;
-    max-width: 220px;   /* desktop size */
+    max-width: 600px;   /* desktop size */
     width: 100%;
     height: auto;
 }
@@ -947,6 +947,6 @@ table tr td:first-of-type {
 	    bottom: -10px;
 	}
 	    .hero-logo {
-        max-width: 150px;
+        max-width: 350px;
     }
 }
