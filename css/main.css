@@ -566,7 +566,10 @@ p {
   margin: -100px 0 0 -100px;
   /* is width and height divided by two */
 }
-
+#ghughu-banner-carousel {
+  width: 100%;       /* full width */
+  position: relative;
+}
 /* banner carousel */
 /* line 34, ../scss/modules/_components.scss */
 .banner-item {
