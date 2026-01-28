@@ -830,6 +830,7 @@ table tr td:first-of-type {
   }
 .banner {
   max-width: 300px;
+  max-height: 200px;
 }
   /* line 28, ../scss/layout/responsive/_tablet.scss */
   .banner-item {
