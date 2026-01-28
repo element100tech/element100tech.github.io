@@ -572,7 +572,7 @@ p {
   /* is width and height divided by two */
 }
 #ghughu-banner-carousel {
-  width: 100%;       /* full width */
+  width: 95%;       /* full width */
   position: relative;
 }
 /* banner carousel */
@@ -582,7 +582,7 @@ p {
   top: auto; /* adjust per screen size */
   left: 50%; /* horizontally center */
   transform: translateX(-50%);
-  width: auto; /* or max-width as needed */
+  width: 95%; /* or max-width as needed */
   text-align: center;
 }
 
@@ -923,9 +923,9 @@ table tr td:first-of-type {
     top: auto !important;          /* reset old top values */
     left: 50%;
     transform: translateX(-50%);
-    width: 100%;
+    width: 95%;
     max-width: 1200px; /* optional */
-    text-align: left;
+    text-align: center;
   }
 
   .banner-item img {
@@ -975,7 +975,7 @@ table tr td:first-of-type {
     transform: translateX(-50%);
     width: 100%;
     max-width: 1200px; /* optional */
-    text-align: left;
+    text-align: center;
   }
 
   .banner-item img {
