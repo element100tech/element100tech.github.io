@@ -406,6 +406,7 @@ p {
 /* line 11, ../scss/modules/_sections.scss */
 .banner {
   background-color: #f2013f;
+  max-width: 470px;
 }
 /* line 14, ../scss/modules/_sections.scss */
 .banner .container {
