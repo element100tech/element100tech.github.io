@@ -29,7 +29,7 @@ body {
   display: grid;
   grid-template-columns: 0.3fr 2fr; /* label | value */
   row-gap: 1.5rem;
-  column-gap: 0.17rem;
+  column-gap: 0.9rem;
   align-items: center;
 }
 
