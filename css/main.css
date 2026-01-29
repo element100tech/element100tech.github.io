@@ -577,6 +577,7 @@ p {
   max-width: 1140px;
   margin-left: auto;
   margin-right: auto;
+  border: 5px solid lime;
   /*position: absolute;*/
 }
 /* banner carousel */
