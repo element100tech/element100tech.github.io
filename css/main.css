@@ -335,7 +335,7 @@ p {
   height: 70px;
   background-image: url("../images/CEOv2.png");
   background-size: cover;
-  background-position: center center;
+  background-position: left center;
   background-repeat: no-repeat;
 }
 /* line 61, ../scss/modules/_blocks.scss */
@@ -344,7 +344,7 @@ p {
   height: 70px;
   background-image: url("../images/CTOv2.png");
   background-size: cover;
-  background-position: center center;
+  background-position: left center;
   background-repeat: no-repeat;
 }
 
