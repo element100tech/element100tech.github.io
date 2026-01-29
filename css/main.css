@@ -409,7 +409,7 @@ p {
   width: 100%;
   overflow: hidden; /* prevent items from spilling */
   position: relative; /* for carousel controls if needed */
-  height: 400px;       /* allow carousel to push the next section down */
+  height: 500px;       /* allow carousel to push the next section down */
 }
 
 /* line 14, ../scss/modules/_sections.scss */
@@ -578,7 +578,7 @@ p {
 #ghughu-banner-carousel {
   width: 100%;       /* full width */
   position: relative;
-  max-width: 1140px;
+  max-width: none;
   margin: 0 auto;
   border: 5px solid lime;
   /*position: absolute;*/
@@ -834,8 +834,7 @@ table tr td:first-of-type {
 
 @media (min-width: 375px) {
  .banner {
-  max-width: 300px;
-  max-height: 600px;
+
 }
   /* line 2, ../scss/layout/responsive/_big-mobile.scss */
   .banner-item {
@@ -888,6 +887,9 @@ table tr td:first-of-type {
   }
   /* line 31, ../scss/layout/responsive/_tablet.scss */
   .banner-item img {
+	width: 100%;
+  height: 100%;
+  object-fit: cover;   /* fill without distortion */
     margin-top: -10px;
   }
 
