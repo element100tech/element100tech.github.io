@@ -6,7 +6,7 @@ body {
   backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 12px;
-  padding: 2rem;
+  padding: 1rem;
   max-width: 1000px;
   margin: 0.5rem auto;
   transition: all 0.3s;
@@ -29,7 +29,7 @@ body {
   display: grid;
   grid-template-columns: 0.3fr 2fr; /* label | value */
   row-gap: 1.5rem;
-  column-gap: 0.1rem;
+  column-gap: 0.17rem;
   align-items: center;
 }
 
