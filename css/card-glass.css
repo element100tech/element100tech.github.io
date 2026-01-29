@@ -44,6 +44,7 @@ body {
 .stat-valuebold {
   font-weight: 700;
   font-size: clamp(1.3rem, 2.7vw, 1.8rem);
+  text-align: right;
 }
 
 .stat-label {
