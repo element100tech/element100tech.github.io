@@ -409,7 +409,7 @@ p {
   width: 100%;
   overflow: hidden; /* prevent items from spilling */
   position: relative; /* for carousel controls if needed */
-  height: auto;       /* allow carousel to push the next section down */
+  height: 400px;       /* allow carousel to push the next section down */
 }
 
 /* line 14, ../scss/modules/_sections.scss */
@@ -576,10 +576,10 @@ p {
   /* is width and height divided by two */
 }
 #ghughu-banner-carousel {
-  /*width: 95%;*/       /* full width */
+  width: 100%;       /* full width */
   position: relative;
   max-width: 1140px;
-  margin: auto;
+  margin: 0 auto;
   border: 5px solid lime;
   /*position: absolute;*/
 }
@@ -587,6 +587,8 @@ p {
 /* line 34, ../scss/modules/_components.scss */
 .banner-item {
   position: relative;
+  width: 100%;
+  height: 100%;
   top: 0;             /* avoid percentage top unless needed */
   left: 0;
   transform: none;
@@ -598,8 +600,13 @@ p {
 
 /* line 38, ../scss/modules/_components.scss */
 /*.banner-item img {
-  box-shadow: 0px 0px 45px rgba(0, 0, 0, 0.2), 0px 0px 45px rgba(0, 0, 0, 0.2);
+  /*box-shadow: 0px 0px 45px rgba(0, 0, 0, 0.2), 0px 0px 45px rgba(0, 0, 0, 0.2);*/
 }*/
+.banner-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* ensures image fills container without distortion */
+}
 
 /* line 45, ../scss/modules/_components.scss */
 /*.carousel-control {*/
@@ -624,7 +631,9 @@ p {
 }
 /* line 61, ../scss/modules/_components.scss */
 .carousel-control.right {
-  margin-right: 15px;
+  right: 100%;
+  left: auto;
+  /*margin-right: 15px;*/
   /*to neget the col padding to align with container*/
   background-color: #090909;
 }
@@ -635,7 +644,8 @@ p {
 /* line 70, ../scss/modules/_components.scss */
 .carousel-control.left {
   left: 100%;
-  margin-left: -286px;
+  right: auto;
+  /*margin-left: -286px;*/
   background-color: #090909;
 }
 /* line 75, ../scss/modules/_components.scss */
@@ -648,16 +658,24 @@ p {
 }
 
 /* line 87, ../scss/modules/_components.scss */
+/*.carousel-indicators {*/
+  /*background-color: #090909;*/
+  /*width: 131px;*/
+  /*height: 50px;*/
+ /* bottom: 0;*/
+  /*left: 100%;*/
+  /*margin-left: -201px;*/
+  /*top: 100%;*/
+  /*margin-top: -50px;*/
+  /*padding-top: 14px;*/
+  /*border-left: 1px solid #1a1a1a;*/
+  /*border-right: 1px solid #1a1a1a;*/
+/*}*/
 .carousel-indicators {
   background-color: #090909;
-  width: 131px;
-  height: 50px;
-  bottom: 0;
-  left: 100%;
-  margin-left: -201px;
-  top: 100%;
-  margin-top: -50px;
-  padding-top: 14px;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
   border-left: 1px solid #1a1a1a;
   border-right: 1px solid #1a1a1a;
 }
