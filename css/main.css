@@ -931,10 +931,7 @@ table tr td:first-of-type {
   .brand-logonav {
     height: 15px;    /* smaller logo on phones */
   }
-	.carousel-control {
-		height: 65px;
-	    bottom: -10px;
-	}
+
 	    .hero-logo {
         max-width: 350px;
     }	
