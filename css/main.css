@@ -850,7 +850,7 @@ table tr td:first-of-type {
 
 @media (min-width: 375px) {
  body, tbody {
-  font-size: 107%;
+  font-size: 307%;
 }
 	.banner {
   height: 1800px;  
@@ -874,7 +874,7 @@ table tr td:first-of-type {
   /* line 3, ../scss/layout/responsive/_tablet.scss */
   body {
     /*font-size: 16px;*/
-	font-size: 107%;
+	font-size: 307%;
     line-height: 26px;
   }
 
@@ -968,14 +968,14 @@ table tr td:first-of-type {
 }
 @media (min-width: 992px) {
   body, tbody {
-  font-size: 115%;
+  font-size: 215%;
  }
 	/* line 3, ../scss/layout/responsive/_laptop.scss */
   h1 {
     font-size: 62px;
   }
   .banner {
-  height: 300px; /* adjust as needed */
+  height: 900px; /* adjust as needed */
   }	 
   /* line 7, ../scss/layout/responsive/_laptop.scss */
   .banner-item img {
@@ -1010,10 +1010,10 @@ table tr td:first-of-type {
 }
 @media (min-width: 1200px) {
   body, tbody {
-  font-size: 115%;
+  font-size: 215%;
  }
 	.banner {
-  height: 300px; /* adjust as needed */
+  height: 900px; /* adjust as needed */
   }	  
   /* line 2, ../scss/layout/responsive/_desktop.scss */
   .banner-item img {
