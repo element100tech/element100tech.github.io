@@ -840,7 +840,7 @@ table tr td:first-of-type {
 
 @media (min-width: 375px) {
  .banner {
-  height: 600px;  
+  height: 800px;  
 }
   /* line 2, ../scss/layout/responsive/_big-mobile.scss */
   .banner-item {
@@ -885,7 +885,9 @@ table tr td:first-of-type {
   .navbar-default .navbar-brand {
     padding: 20px 40px;
   }
-
+  .banner {
+  height: 800px; /* adjust as needed */
+  }	
   /* line 28, ../scss/layout/responsive/_tablet.scss */
   .banner-item {
     /*top: 35%;*/
