@@ -853,7 +853,7 @@ table tr td:first-of-type {
   font-size: 107%;
 }
 	.banner {
-  height: 800px;  
+  height: 1800px;  
 }
   /* line 2, ../scss/layout/responsive/_big-mobile.scss */
   .banner-item {
@@ -882,7 +882,7 @@ table tr td:first-of-type {
   h2 {
     font-family: "Open sans", "Sans Serif";
     font-size: 26px;
-    font-weight: 800;
+    font-weight: 1800;
     line-height: 1.5;
   }
 
