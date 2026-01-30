@@ -753,7 +753,7 @@ p {
   font-family: "Roboto Mono";
   background-color: #fff;
   color: #090909;
-  padding: 20px;
+  padding: 5px;
 }
 
 /* line 8, ../scss/modules/_forms.scss */
@@ -773,7 +773,7 @@ label {
 input, textarea {
   background-color: #f7f7f7;
   border: 1px solid #ddd;
-  padding: 10px 5px;
+  padding: 10px 20px;
   margin-bottom: 20px;
 }
 
