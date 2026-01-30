@@ -542,7 +542,7 @@ p {
 .email-us .form-wrapper,
 .email-us .map-wrapper {
     width: 100px;
-    margin: 0 auto;
+    margin: 0;
 }
 .footer-wrapper {
   width: 100%;
