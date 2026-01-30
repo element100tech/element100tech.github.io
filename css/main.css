@@ -864,7 +864,7 @@ table tr td:first-of-type {
 
   /* line 10, ../scss/layout/responsive/_big-mobile.scss */
   .form-wrapper {
-    padding: 30px;
+    padding: 10px;
   }
 }
 @media (min-width: 750px) {
@@ -928,7 +928,9 @@ table tr td:first-of-type {
     max-width: 100%;
     margin: 0;
   }
-
+ .footer-wrapper {
+  width: 100%;
+}
   /* line 53, ../scss/layout/responsive/_tablet.scss */
   .address-table {
     max-width: 350px;
