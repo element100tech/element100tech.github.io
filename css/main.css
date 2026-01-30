@@ -753,7 +753,7 @@ p {
   font-family: "Roboto Mono";
   background-color: #fff;
   color: #090909;
-  padding: 5px;
+  padding: 17px 5px;
 }
 
 /* line 8, ../scss/modules/_forms.scss */
@@ -765,7 +765,7 @@ label, input, textarea {
 
 /* line 14, ../scss/modules/_forms.scss */
 label {
-  font-weight: 700;
+  font-weight: 1700;
   margin-bottom: 7px;
 }
 
@@ -773,13 +773,13 @@ label {
 input, textarea {
   background-color: #f7f7f7;
   border: 1px solid #ddd;
-  padding: 10px 20px;
+  padding: 17px 40px;
   margin-bottom: 20px;
 }
 
 /* line 26, ../scss/modules/_forms.scss */
 textarea {
-  height: 130px;
+  height: 180px;
   margin-bottom: 20px;
 }
 
