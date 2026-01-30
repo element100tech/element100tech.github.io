@@ -840,11 +840,11 @@ table tr td:first-of-type {
 
 @media (min-width: 375px) {
  .banner {
-
+  height: 600px;  
 }
   /* line 2, ../scss/layout/responsive/_big-mobile.scss */
   .banner-item {
-    top: 5%;
+
   }
 
   /* line 6, ../scss/layout/responsive/_big-mobile.scss */
@@ -893,8 +893,6 @@ table tr td:first-of-type {
   }
   /* line 31, ../scss/layout/responsive/_tablet.scss */
   .banner-item img {
-	width: 100%;
-  height: 100%;
   object-fit: cover;   /* fill without distortion */
     margin-top: -10px;
   }
@@ -951,7 +949,7 @@ table tr td:first-of-type {
   }	 
   /* line 7, ../scss/layout/responsive/_laptop.scss */
   .banner-item img {
-    margin-top: -25px;
+    margin-top: -10px;
   }
 
   /* line 11, ../scss/layout/responsive/_laptop.scss */
@@ -986,7 +984,7 @@ table tr td:first-of-type {
   }	  
   /* line 2, ../scss/layout/responsive/_desktop.scss */
   .banner-item img {
-    margin-top: -25px;
+    margin-top: -10px;
   }
 
   /* line 6, ../scss/layout/responsive/_desktop.scss */
