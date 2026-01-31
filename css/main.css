@@ -858,11 +858,11 @@ table tr td:first-of-type {
   font-size: 307%;
 }
 	.banner {
-  height: 400px;  
+  height: auto;  
 }
   /* line 2, ../scss/layout/responsive/_big-mobile.scss */
   .banner-item {
-
+  height: auto;
   }
 
   /* line 6, ../scss/layout/responsive/_big-mobile.scss */
@@ -905,12 +905,13 @@ table tr td:first-of-type {
     padding: 20px 40px;
   }
   .banner {
-  height: 500px; /* adjust as needed */
+  height: auto; /* adjust as needed */
   }	
   /* line 28, ../scss/layout/responsive/_tablet.scss */
   .banner-item {
     /*top: 35%;*/
 	top: auto;
+	height: auto;
   }
   /* line 31, ../scss/layout/responsive/_tablet.scss */
   .banner-item img {
@@ -919,7 +920,7 @@ table tr td:first-of-type {
   }
 #ghughu-banner-carousel {
   width: 100%;       /* full width */
-	height: 200%;
+	height: 100%;
   /*position: relative;*/
   /*max-width: none;*/
   /*margin: 0 auto;*/
