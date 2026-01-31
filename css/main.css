@@ -16,7 +16,7 @@ del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
+fieldset, form, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
@@ -30,6 +30,15 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
+/* line 18, ../scss/base/_reset.scss */
+label {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 150%;
+  font: inherit;
+  vertical-align: baseline;
+}
 /* HTML5 display-role reset for older browsers */
 /* line 28, ../scss/base/_reset.scss */
 article, aside, details, figcaption, figure,
