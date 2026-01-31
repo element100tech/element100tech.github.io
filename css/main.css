@@ -301,7 +301,7 @@ p {
 .hero-logo {
     display: block;
     margin: 20px auto;
-    max-width: 600px;   /* desktop size */
+    max-width: 400px;   /* desktop size */
     width: 100%;
     height: auto;
 }
@@ -1016,7 +1016,7 @@ table tr td:first-of-type {
  .team-member-desc {
     margin: 0px 15px;
     text-align: justify;
-	max-width: 45%; /* make text 15% narrower than column */
+	max-width: 85%; /* make text 15% narrower than column */
 }
 }
 @media (min-width: 1200px) {
@@ -1040,7 +1040,7 @@ table tr td:first-of-type {
 .team-member-desc {
     margin: 0px 15px;
     text-align: justify;
-	max-width: 45%; /* make text 15% narrower than column */
+	max-width: 85%; /* make text 15% narrower than column */
 }
 
 .footer-link a:hover {
