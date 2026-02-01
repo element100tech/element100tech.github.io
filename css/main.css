@@ -516,7 +516,7 @@ p {
 /* line 89, ../scss/modules/_sections.scss */
 .address {
   background-color: #f2013f;
-  padding: 80px 0; /* tweak this up/down as you like */
+  /*padding: 80px 0;*/ /* tweak this up/down as you like */
 }
 .address2 {
   background-color: #f2013f;
