@@ -48,10 +48,10 @@ $(function () {
     }
   });
 
-  // Close mobile menu after click
-  $(".navbar-collapse a").on("click", function () {
-    if ($(".navbar-toggle").is(":visible")) {
-      $(".navbar-collapse").collapse("hide");
+  // Close mobile menu when a link is clicked
+  $('#top-navigation-bar a').on('click', function () {
+    if ($('.navbar-toggle').is(':visible')) {
+      $('#top-navigation-bar').collapse('hide');
     }
   });
 
