@@ -542,7 +542,9 @@ p {
 .address-table td {
   border-bottom: 1px solid #d00136;
 }
-
+.address-table td:first-child {
+  padding-right: 30px;  /* example: space between "Location:" and "Pasadena" */
+}
 /*email us*/
 /* line 113, ../scss/modules/_sections.scss */
 /*.address-wrapper,*/
