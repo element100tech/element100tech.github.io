@@ -489,7 +489,10 @@ p {
 /* line 71, ../scss/modules/_sections.scss */
 .about-us {
   background-color: #090909;
+	  padding-top: 120px;   /* increase top space */
+  padding-bottom: 120px;/* increase bottom space */
 }
+
 /* line 74, ../scss/modules/_sections.scss */
 .about-us h1 {
   margin-bottom: 40px;
