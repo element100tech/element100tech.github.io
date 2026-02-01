@@ -32,22 +32,22 @@ var wow = new WOW({ mobile: false });
  */
 
 // Handle active menu item on click
-$("#top-navbar-collapse li").on("click", function () {
-    $("#top-navbar-collapse li.active").removeClass("active");
+$("#top-navigation-bar li").on("click", function () {
+    $("#top-navigation-bar li.active").removeClass("active");
     $(this).addClass("active");
 });
 
 // Set active menu item based on current URL
 var str = location.href.toLowerCase();
-$("#top-navbar-collapse li a").each(function () {
+$("#top-navigation-bar li a").each(function () {
   if (str.indexOf(this.href.toLowerCase()) > -1) {
-    $("#top-navbar-collapse li.active").removeClass("active");
+    $("#top-navigation-bar li.active").removeClass("active");
     $(this).parent("li").addClass("active");
   }
 });
 
 // CLOSE MOBILE MENU (
-$(document).on("click", "#top-navbar-collapse a", function () {
+$(document).on("click", "#top-navigation-bar a", function () {
     if ($(".navbar-toggle").is(":visible")) {
         $(".navbar-toggle").trigger("click");
     }
