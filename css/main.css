@@ -684,7 +684,7 @@ p {
 }
 
 /* line 45, ../scss/modules/_components.scss */
-/*
+
 .carousel-control {
   position: absolute;
   top: 50%;
@@ -693,7 +693,7 @@ p {
   height: 50px;
   z-index: 20;            
   background-color: rgba(0,0,0,0);  
-*/
+
   /*margin-top: -50px;*/
   /*bottom: 0;*/
   /*left: 0;*/
@@ -706,24 +706,8 @@ p {
   /*background-color: rgba(0, 0, 0, 0);*/
   /*filter: alpha(opacity=100);*/
   /*opacity: 1;*/
-/*}*/
-*/ TESTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
-.carousel-control {
-  width: 80px ;
-  height: 80px ;
-  line-height: 80px ;
-  font-size: 14px;
-  color: white ;
-  background-color: rgba(0,0,0,0.5) ;
-  top: 50% ;
-  transform: translateY(-50%) ;
-  z-index: 999 
 }
 
-
-.carousel-control span {
-  text-shadow: 0 0 10px rgba(255,255,255,1);
-}
 
 
 	
