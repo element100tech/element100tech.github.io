@@ -567,17 +567,28 @@ p {
 #contact-form input,
 #contact-form textarea {
   color: #000;
- padding: 10px 15px;
+	  display: block;
+  width: 100%;
+  padding: 12px 15px;  /* reasonable size */
+  margin-bottom: 20px;
+  box-sizing: border-box;  /* include padding in width */
 }
-
+/* But make the submit button text white */
+#contact-form input.custom-button {
+  color: #fff;
+	padding: 15px 20px;
+}
 /* Make placeholder text a mid-gray so you can distinguish it */
 #contact-form input::placeholder,
 #contact-form textarea::placeholder {
   color: #888;
 }
-
-
-
+/* Force proper stacking: label above input, each pair full width */
+#contact-form label {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+}
 
 .footer-wrapper {
   width: 100%;
