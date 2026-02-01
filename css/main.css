@@ -529,7 +529,7 @@ p {
   /*margin-bottom: 30px;*/
 }
 #address.page-top {
-    /*padding: 400px 0;*/
+	padding: 120px 0 80px;  /* tweak values as you like */
 }
 #address .row {
   display: flex;
