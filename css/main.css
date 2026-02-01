@@ -536,7 +536,7 @@ p {
 .address-table {
   color: #fff;
   font-size: 1.25em;  /* 125% larger text */
-  border-top: 1px solid #d00136;
+  border-bottom: 1px solid #d00136;
   margin-bottom: 60px;
 }
 /* line 102, ../scss/modules/_sections.scss */
