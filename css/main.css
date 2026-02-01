@@ -526,6 +526,9 @@ p {
 .address h1 {
   /*margin-bottom: 30px;*/
 }
+#address.page-top {
+    padding: 200px 0;
+}
 
 /* line 97, ../scss/modules/_sections.scss */
 .address-table {
@@ -1052,7 +1055,7 @@ table tr td:first-of-type {
 
   /* line 6, ../scss/layout/responsive/_desktop.scss */
   .about-heading {
-    top: 48%;
+    /*top: 48%;*/
   }
 }
 
