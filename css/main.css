@@ -574,7 +574,7 @@ p {
   box-sizing: border-box;  /* include padding in width */
 }
 #contact-form textarea[name="message"] {
-  height: 180px;  /* 3x taller, only for message box */
+  height: 250px;  /*  much taller message box */
 }
 /* But make the submit button text white */
 #contact-form input.custom-button {
@@ -869,7 +869,8 @@ table {
 }
 /* line 8, ../scss/modules/_tables.scss */
 table tr td {
-  padding: 75px 0; /*15px 0*/
+  padding-top: 112px;    /* can be adjusted */
+  padding-bottom: 112px;
   border-bottom: 1px solid #d5d5d5;
 }
 /* line 12, ../scss/modules/_tables.scss */
