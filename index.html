@@ -36,7 +36,19 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" href="css/card-glass.css">
     <!--link rel="stylesheet" href="scss/card-glass.scss"-->
-
+<style> /* Make the iframe responsive, centered, and larger */ 
+      .formmicrosoft, .formmicrosoft .team-member, .formmicrosoft .col-md-6 { width: 100%; box-sizing: border-box; } 
+      /* If you still have the table wrapper, target the iframe inside it */ 
+      .formmicrosoft-contact, .formmicrosoft-contact tbody { width: 100%; margin: 0; padding: 0; border: 0; } 
+      /* Center and expand the iframe */ 
+      .formmicrosoft-contact iframe, .formmicrosoft iframe { display: block; margin: 0 auto; width: 100%; max-width: 1200px; 
+      /* adjust max width as desired */ height: 190vh; 
+      /* viewport-relative height so it expands */ min-height: 1400px; 
+      /* ensures enough height on large screens */ border: none; box-shadow: 0 0 0 rgba(0,0,0,0); 
+      /* no default outline */ } /* Tweak for tablets / phones */ 
+      @media (max-width: 992px) { .formmicrosoft-contact iframe, .formmicrosoft iframe { max-width: 960px; height: 70vh; min-height: 480px; } } @media (max-width: 576px) 
+      { .formmicrosoft-contact iframe, .formmicrosoft iframe { max-width: 100%; height: 60vh; min-height: 360px; } } 
+  </style>
 
     <style>
           .sup-small {
@@ -48,18 +60,15 @@
 
 
 </head>
+<body id="top">
+    <!-- Start: Preloader section -->
+        <div id="loader-wrapper">
+            <div id="loader"></div>
+        </div>
+    <!-- End: Preloader section -->
 
-<body>
-
-<!-- Start: Preloader section -->
-<div id="loader-wrapper">
-    <div id="loader"></div>
-</div>
-<!-- End: Preloader section -->
-
-<!-- DOCUMENT WRAPPER STARTS -->
+    <!-- DOCUMENT WRAPPER STARTS -->
     <main>
-
         <!-- MAIN HEADER STARTS-->
             <header id="header">
 
@@ -84,10 +93,10 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="top-navigation-bar">
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="active"><a href="index.html">Home</a></li>
-                            <li><a href="about.html">about Us</a></li>
-                            <li><a href="about.html#address2">Inquiries</a></li>
-                            <li><a href="about.html#addresslocation">Contact</a></li>
+                            <li class="active"><a href="#top">Home</a></li>
+                            <li><a href="#about">about Us</a></li>
+                            <li><a href="#address2">Inquiries</a></li>
+                            <li><a href="#addresslocation">Contact</a></li>
                         </ul>
                     </div>
                     <!-- /.navbar-collapse -->
@@ -292,8 +301,205 @@
     </div>
   </div>
 </section>
-
         <!-- CTA section ends -->
+   
+    <!-- ABOUT US section starts -->
+        <section id="address" class="address page-top" style="padding: 180px 0px 180px;">
+    <div class="container">
+        <div class="row">
+
+            <!-- Title -->
+            <div class="col-md-7">
+                <!--div class="address-wrapper wow fadeInUp" data-wow-delay="0.3s">
+                    <h1>Inquiries</h1>
+                </div>-->
+                <div class="about-heading">
+                   <h1 class="wow fadeInUp" data-wow-delay="0.3s">18 Years of Expertise</h1>
+                    <h2 class="wow fadeInUp" data-wow-delay="0.8s">in Research and Industry</h2> 
+                </div>  
+            </div>
+        </div>
+    </div>
+</section>        
+<section id="about-us" class="about-us page">
+            <div class="container wow fadeInUp" data-wow-delay="0.3s">
+                <div class="row">
+                    <div class="about-wrapper">
+                        <div class="col-md-6">
+                            <h1>About Us ..</h1>
+
+                            <!--KEEP this part for later>
+                            <div class="section-snippet">
+                              <span class="snippet-heading">10 energetic</span>
+                              <span>team members</span>  
+                            </div>-->
+                            
+                        </div>
+                        <div class="col-md-6">
+                            <p style="text-align: justify;">Behind the development of the 100% silicon anode, Element100 is a team of experts in lithium-ion batteries with 18 years of 
+                                experience spanning academic research and industrial applications. The team combines fundamental electrochemistry, 
+                                materials science, and cell engineering to translate laboratory innovations into scalable technologies.</p>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+</section>
+        
+<section id="team-members" class="team-members page">
+            <div class="container">
+                    <div class="team-member clearfix wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="col-md-6">
+                            <div class="team-member-desc">
+                                <div class="team-member-desc-heading">
+                                    <h4>N. Al-Mulla</h4>
+                                    <span>CEO &amp; co-founder of Element100 Technology</span>
+                                </div>
+                                <p style="text-align: justify;">xxxxxxxxxxxxxxx xxxxxxxxxxxxxxxxxxxxxx. xxxxxxxxxxxxxx. xxxxxxxxxxxxxxxxx. xxxxxxxxxxxxxxxxxx.
+                                    xxxxxxxxxxxxxxxxxxxxxxx. xxxxxxxxxxxxxxx. xxxxxxxxxxxxxxxxxx.
+                                    </p>
+                            </div>
+                        </div>
+
+                            <div class="col-md-6">
+                                <div class="team-member-desc">
+                                    <div class="team-member-desc-heading">
+                                        <h4>I. Darolles</h4>
+                                        <span>CTO &amp; co-founder of Element100 Technology</span>
+                                    </div>
+                                    <p style="text-align: justify;">Dr. Darolles has over 18 years of experience in lithium battery R&D, both in industry and academic settings, and prior to founding Element100, Dr. Darolles was the CTO of Sienza&mdash;recruited by Caltech in 2013 to launch the technical development of Sienza’s new technology&mdash; and 
+                                    Lead Research Scientist at Contour Energy. Dr. Darolles has developed and patented novel polymer electrolytes and electrode materials for lithium batteries and 
+                                    have nine patents issued or pending. Dr. Darolles received a Ph.D. in electrochemistry from Pierre and Marie Curie University in France.</p>
+                                </div>
+                            </div>
+                        </div>     
+                    </div>
+            </div>
+</section>
+
+<section id="address2" class="address page-top">
+    <div class="container">
+        <div class="row">
+
+            <!-- Title -->
+            <div class="col-md-7">
+                <div class="address-wrapper wow fadeInUp" data-wow-delay="0.3s">
+                    <h1>Inquiries</h1>
+                </div>
+            </div>
+
+            <!-- Logo (closer and larger) -->
+            <div class="col-md-5">
+                <div class="wow fadeInUp" data-wow-delay="0.3s">
+                            <p style="text-align: justify;">Share your needs by completing the form below, and we will get back to you shortly with solutions tailored to your specific performance requirements.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section id="inquiries" class="inquiries page">
+            <div class="container wow fadeInUp" data-wow-delay="0.3s">
+                <div class="row">
+                    <!--div class="col-md-6">
+                        <div class="inquiries-wrapper">
+                            <h1>Inquiries</h1>
+                        </div>  
+                    </div-->
+                        <!-- Microsoft Form Embed -->
+               <div class="formmicrosoft" data-wow-delay="0.3s"> 
+                   <div class="team-member clearfix wow fadeInUp" data-wow-delay="0.3s"> 
+                       <div class="col-md-12"> 
+                           <div class="formmicrosoft-embed center-block"> 
+                               <iframe src="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAO__qqVEZlURE9RRUpUUjNKTEtUUDVNOEZJNDZWOEROUy4u&embed=true" 
+                                   allowfullscreen webkitallowfullscreen mozallowfullscreen aria-hidden="false" tabindex="0" >
+                               </iframe> 
+                           </div> 
+                       </div>
+                   </div> 
+               </div>
+                </div>
+            </div>
+        </section>
+        
+
+<section id="addresslocation" class="address page-top">
+            <div class="container">
+                <div class="row">
+                    
+                        <div class="col-md-6">
+                        <div class="address-wrapper wow fadeInUp" data-wow-delay="0.3s">
+                        <h1>Our Location</h1>
+                        <table class="address-table">
+                                <tbody>
+                                    <tr>
+                                        <td>Location:</td>
+                                        <td>Pasadena, California</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Phone:</td>
+                                        <td>+1 (626) 644-1686</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Email:</td>
+                                        <td>element100tech@outlook.com</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            </div>
+                    </div>
+                    <div class="col-md-6">
+                    <div class="map-wrapper wow fadeInUp" data-wow-delay="0.6s">
+                        <!--OLD automaic map<div id="map"></div>-->
+                        <img src="../images/USAmap.png" alt="Pasadena" style="width:100%; height:auto;">
+                    </div>
+                    </div>   
+            </div>
+            </div>
+        </section>
+
+        <section id="email-us" class="email-us page">
+            <div class="container wow fadeInUp" data-wow-delay="1.0s">
+                <div class="row">
+                    
+                    <div class="col-md-6">
+                    <div class="email-wrapper">
+                        <h1>Email Us</h1>
+                     </div>  
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-wrapper">
+                          <form id="contact-form" action="inc/send_mail.php">
+                              <label for="name">Your Name:</label>
+                              <input type="text" name="name" id="name" placeholder="your name">
+                              <label for="email">Your email:</label>
+                              <input type="email" name="email" id="email" placeholder="your email">
+                              <label for="message">Your message:</label>
+                              <textarea name="message" id="message" placeholder="message"></textarea>
+                              <input class="custom-button" type="submit" name="submit" value="send message">
+
+                          </form> 
+                                        
+                    </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- ABOUT US section ends -->
+ <!-- footer section starts -->
+        <footer id="footer" class="footer">
+            <div class="container wow fadeInUp">
+                <div class="row">
+                    <div class="col-md-5 col-md-offset-1 footer-text">
+                        <span>Inspired by a theme from <a href="https://themewagon.com/" target="_blank">ThemeWagon</a></span>
+                    </div>
+                    </div>
+                </div><!-- End: .row -->
+            </div><!-- End: .container-->
+        </footer>
+<!-- footer section ends -->
     </main>
 <!-- DOCUMENT WRAPPER ENDS -->
 
