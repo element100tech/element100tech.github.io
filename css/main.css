@@ -520,6 +520,7 @@ p {
 }
 .address2 {
   background-color: #f2013f;
+  font-size: 1.25em;  /* 125% larger text */
 }
 .addresslocation {
   background-color: #f2013f;
@@ -536,7 +537,7 @@ p {
 .address-table {
   color: #fff;
   font-size: 1.25em;  /* 125% larger text */
-  border-bottom: 1px solid #d00136;
+  /*border-bottom: 1px solid #d00136;*/ try if yu like
   margin-bottom: 60px;
 }
 /* line 102, ../scss/modules/_sections.scss */
