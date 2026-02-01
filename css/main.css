@@ -563,6 +563,22 @@ p {
     margin: 0 auto;
 }
 
+/* Make actual input text clearly dark */
+#contact-form input,
+#contact-form textarea {
+  color: #000;
+ padding: 10px 15px;
+}
+
+/* Make placeholder text a mid-gray so you can distinguish it */
+#contact-form input::placeholder,
+#contact-form textarea::placeholder {
+  color: #888;
+}
+
+
+
+
 .footer-wrapper {
   width: 100%;
 }
