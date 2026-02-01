@@ -49,11 +49,15 @@ $("#top-navigation-bar li a").each(function () {
 
 });
   // Auto-collapse mobile menu on click
-  $(document).ready(function () {
-    $('.navbar-collapse a').click(function () {
-      $('.navbar-collapse').collapse('hide');
+$(document).ready(function() {
+    // Only collapse if the navbar is visible (mobile)
+    $('.navbar-collapse a').click(function(event) {
+        var toggle = $(".navbar-toggle").is(":visible");
+        if (toggle) {
+            $(".navbar-collapse").collapse('hide');
+        }
     });
-  });
+});
 /**
 * ================================
 * SMOOTH SCROLL FOR ANCHOR LINKS
