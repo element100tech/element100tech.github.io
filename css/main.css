@@ -535,6 +535,7 @@ p {
 /* line 97, ../scss/modules/_sections.scss */
 .address-table {
   color: #fff;
+  font-size: 1.5em;  /* 150% larger text */
   border-top: 1px solid #d00136;
   margin-bottom: 60px;
 }
