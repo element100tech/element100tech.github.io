@@ -117,7 +117,7 @@ $('#contact-form').validate({
 
 	submitHandler: function(){     
     }
-});
+/*});*/
 
 
 }); // end of function
