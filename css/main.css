@@ -535,13 +535,15 @@ p {
 /* line 97, ../scss/modules/_sections.scss */
 .address-table {
   color: #fff;
-  font-size: 1.5em;  /* 150% larger text */
+  font-size: 1.25em;  /* 125% larger text */
   border-top: 1px solid #d00136;
   margin-bottom: 60px;
 }
 /* line 102, ../scss/modules/_sections.scss */
 .address-table td {
   border-bottom: 1px solid #d00136;
+ padding-top: 40px;      /* more space above text */
+  padding-bottom: 40px;   /* more space below text */
 }
 .address-table td:first-child {
   padding-right: 30px;  /* example: space between "Location:" and "Pasadena" */
