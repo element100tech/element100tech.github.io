@@ -120,7 +120,6 @@ $('#contact-form').validate({
 });
 
 
-}); // end of $(function(){})
-
+}); // end of function
 
 
