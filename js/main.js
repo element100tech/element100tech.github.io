@@ -58,26 +58,7 @@ $(document).ready(function() {
         }
     });
 });
-/**
-* ================================
-* SMOOTH SCROLL FOR ANCHOR LINKS
-* ================================
-*/
-$('a[href^="#"]').on('click', function (e) {
-    var target = $(this.getAttribute('href'));
-    if (!target.length) return;
 
-    e.preventDefault();
-
-    var navHeight = $('.navbar-fixed-top').outerHeight() || 0;
-
-    // allow Bootstrap collapse to finish first (IMPORTANT on mobile)
-    setTimeout(function () {
-        $('html, body').animate({
-            scrollTop: target.offset().top - navHeight
-        }, 600);
-    }, 300);
-});
 /**
  * ================================
  * FULL SCREEN VIEW                    
