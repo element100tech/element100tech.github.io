@@ -57,7 +57,22 @@
         top: -0.35em;
       }
     </style>
-
+<script>
+$(window).on('load', function() {
+    console.log('jQuery loaded:', typeof $ !== 'undefined');
+    console.log('Carousel element:', $('#ghughu-banner-carousel').length);
+    
+    // Test if Bootstrap carousel works
+    if (typeof $.fn.carousel !== 'undefined') {
+        $('#ghughu-banner-carousel').carousel({
+            interval: 5000
+        });
+        console.log('Carousel initialized!');
+    } else {
+        console.error('BOOTSTRAP NOT LOADED!');
+    }
+});
+</script>
 
 </head>
 <body id="top">
