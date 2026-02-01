@@ -110,14 +110,12 @@ $('#contact-form').validate({
 	messages:{
 		name:'Please enter your name',
 		email:'Please enter a valid email',
-		message: 'Please write down your messsage'
+		message: 'Please write down your message'
 	},
 
-    errorClass:"local-error",
-
-	submitHandler: function(){     
-    }
-/*});*/
+    errorClass:"local-error", 
+	submitHandler: function(){}
+});
 
 
 }); // end of function
