@@ -32,40 +32,41 @@ var wow = new WOW({ mobile: false });
  */
 
 // Handle active menu item on click
-$("#top-navigation-bar li").on("click", function () {
-  $("#top-navigation-bar li.active").removeClass("active");
-  $(this).addClass("active");
+$("#top-navbar-collapse li").on("click", function () {
+    $("#top-navbar-collapse li.active").removeClass("active");
+    $(this).addClass("active");
 });
 
 // Set active menu item based on current URL
 var str = location.href.toLowerCase();
-$("#top-navigation-bar li a").each(function () {
+$("#top-navbar-collapse li a").each(function () {
   if (str.indexOf(this.href.toLowerCase()) > -1) {
-    $("#top-navigation-bar li.active").removeClass("active");
+    $("#top-navbar-collapse li.active").removeClass("active");
     $(this).parent("li").addClass("active");
   }
 });
 
 // CLOSE MOBILE MENU (
-$(document).on("click", "#top-navigation-bar a", function () {
-  if ($(".navbar-toggle").is(":visible")) {
-    $(".navbar-toggle").trigger("click");
-  }
-});
+$(document).on("click", "#top-navbar-collapse a", function () {
+    if ($(".navbar-toggle").is(":visible")) {
+        $(".navbar-toggle").trigger("click");
+    }
+});	
 /**
 * ================================
 * SMOOTH SCROLL FOR ANCHOR LINKS
 * ================================
 */
-  $('a[href^="#"]').on('click', function(e) {
+$('a[href^="#"]').on('click', function(e) {
     var target = $(this.getAttribute('href'));
     if (target.length) {
-      e.preventDefault();
-      $('html, body').animate({
-        scrollTop: target.offset().top
-      }, 600); // 600ms scroll duration, adjust as needed
+        e.preventDefault();
+        var navHeight = $('.navbar-fixed-top').outerHeight() || 0;
+        $('html, body').animate({
+            scrollTop: target.offset().top - navHeight
+        }, 600);
     }
-  });
+});
 /**
  * ================================
  * FULL SCREEN VIEW                    
