@@ -115,7 +115,7 @@ $('#contact-form').validate({
 
     errorClass:"local-error", 
 	submitHandler: function(){}
-});
+/*});*/
 
 
 }); // end of function
