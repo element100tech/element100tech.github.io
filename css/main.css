@@ -531,17 +531,7 @@ p {
 #address.page-top {
 	padding: 120px 0 80px;  /* tweak values as you like */
 }
-#address .row {
-  display: flex;
-  align-items: stretch;   /* make both columns same height */
-}
 
-/* Ensure columns themselves expand with height */
-#address .col-md-7,
-#address .col-md-5 {
-  display: flex;
-  flex-direction: column;
-}
 /* line 97, ../scss/modules/_sections.scss */
 .address-table {
   color: #fff;
@@ -962,6 +952,19 @@ table tr td:first-of-type {
 
   /*position: absolute;*/
 }
+/* Impeding the columns of the same row to stack */	
+#address .row {
+  display: flex;
+  align-items: stretch;   /* make both columns same height */
+}
+
+/* Ensure columns themselves expand with height */
+#address .col-md-7,
+#address .col-md-5 {
+  display: flex;
+  flex-direction: column;
+}
+	
   /* line 36, ../scss/layout/responsive/_tablet.scss */
   .about-us p {
     color: #e6e6e6;
