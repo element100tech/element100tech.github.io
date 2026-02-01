@@ -31,31 +31,28 @@ var wow = new WOW({ mobile: false });
  * ================================
  */
 
-$(function () {
-
-  // Handle active menu item on click
-  $("#top-navigation-bar li").on("click", function () {
-    $("#top-navigation-bar li.active").removeClass("active");
-    $(this).addClass("active");
-  });
-
-  // Set active menu item based on current URL
-  var str = location.href.toLowerCase();
-  $("#top-navigation-bar li a").each(function () {
-    if (str.indexOf(this.href.toLowerCase()) > -1) {
-      $("#top-navigation-bar li.active").removeClass("active");
-      $(this).parent("li").addClass("active");
-    }
-  });
-
-  // Close mobile menu when a link is clicked
-  $('#top-navigation-bar a').on('click', function () {
-    if ($('.navbar-toggle').is(':visible')) {
-      $('#top-navigation-bar').collapse('hide');
-    }
-  });
-
+// Handle active menu item on click
+$("#top-navigation-bar li").on("click", function () {
+  $("#top-navigation-bar li.active").removeClass("active");
+  $(this).addClass("active");
 });
+
+// Set active menu item based on current URL
+var str = location.href.toLowerCase();
+$("#top-navigation-bar li a").each(function () {
+  if (str.indexOf(this.href.toLowerCase()) > -1) {
+    $("#top-navigation-bar li.active").removeClass("active");
+    $(this).parent("li").addClass("active");
+  }
+});
+
+// CLOSE MOBILE MENU (
+$(document).on("click", "#top-navigation-bar a", function () {
+  if ($(".navbar-toggle").is(":visible")) {
+    $(".navbar-toggle").trigger("click");
+  }
+});
+
 
 /**
  * ================================
