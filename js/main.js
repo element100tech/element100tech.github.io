@@ -49,11 +49,11 @@ $("#top-navigation-bar li a").each(function () {
 
 });
   // Auto-collapse mobile menu on click
-$('.navbar-nav>li>a').on('click', function() {
-    if ($('.navbar-toggle').is(':visible')) { // only on mobile
-        $('.navbar-collapse').collapse('hide'); // close the menu
-    }
-});	
+  $(document).ready(function () {
+    $('.navbar-collapse a').click(function () {
+      $('.navbar-collapse').collapse('hide');
+    });
+  });
 /**
 * ================================
 * SMOOTH SCROLL FOR ANCHOR LINKS
