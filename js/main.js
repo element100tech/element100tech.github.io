@@ -31,20 +31,31 @@ var wow = new WOW({ mobile: false });
  * ================================
  */
 
-$("#top-navigation-bar li").click(function(){
-  $("#top-navigation-bar li.active").removeClass("active");  
-  $(this).addClass("active");
-})
+$(function () {
 
-var str=location.href.toLowerCase();
-$("#top-navigation-bar li a").each(function() {
-  if(str.indexOf(this.href.toLowerCase())>-1){
-    $('#top-navigation-bar li.active').removeClass("active");
-    $(this).parent("li").addClass("active");
-  }
+  // Handle active menu item on click
+  $("#top-navigation-bar li").on("click", function () {
+    $("#top-navigation-bar li.active").removeClass("active");
+    $(this).addClass("active");
+  });
+
+  // Set active menu item based on current URL
+  var str = location.href.toLowerCase();
+  $("#top-navigation-bar li a").each(function () {
+    if (str.indexOf(this.href.toLowerCase()) > -1) {
+      $("#top-navigation-bar li.active").removeClass("active");
+      $(this).parent("li").addClass("active");
+    }
+  });
+
+  // Close mobile menu after click
+  $(".navbar-collapse a").on("click", function () {
+    if ($(".navbar-toggle").is(":visible")) {
+      $(".navbar-collapse").collapse("hide");
+    }
+  });
+
 });
-
-
 
 /**
  * ================================
