@@ -156,10 +156,14 @@ p {
   font-weight: 800;
   color: #fff;
   font-size: 24px;
- display: flex;
- align-items: center;
 	  padding: 15px 15px 15px 0;  /* Less left padding */
   line-height: 1;             /* Tight line height */
+	  padding-top: 10px 
+  padding-bottom: 10px 
+  padding-left: 15px;              /* ← Left spacing only */
+  display: flex;
+  align-items: center;
+  line-height: 24px;               /* ← SAME line height */
 }
 .brand-logo {
     height: 40px;
@@ -207,8 +211,9 @@ p {
   font-size: 14px;
   font-weight: 800;
   transition: all 0.3s;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 24px;
 }
 /* line 47, ../scss/layout/_nav.scss */
 .navbar-default .navbar-nav > li > a:hover {
@@ -1103,6 +1108,8 @@ table tr td:first-of-type {
   }
   /* line 26, ../scss/layout/responsive/_laptop.scss */
   .navbar-default .navbar-brand {
+	      padding-top: 12px 
+    padding-bottom: 12px 
     font-size: 24px;
     padding: 30px;
   }
