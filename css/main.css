@@ -1091,13 +1091,13 @@ table tr td:first-of-type {
 
   /* line 21, ../scss/layout/responsive/_laptop.scss */
   .navbar-default .navbar-nav > li > a {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   /* line 26, ../scss/layout/responsive/_laptop.scss */
   .navbar-default .navbar-brand {
     font-size: 24px;
-    padding: 40px;
+    padding: 30px;
   }
 
   /* line 32, ../scss/layout/responsive/_laptop.scss */
