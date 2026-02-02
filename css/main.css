@@ -155,16 +155,14 @@ p {
   font-family: "Abril Fatface";
   font-weight: 800;
   color: #fff;
-  font-size: 24px;
-	  padding: 15px 15px 15px 0;  /* Less left padding */
-  line-height: 1;             /* Tight line height */
-	  padding-top: 10px 
-  padding-bottom: 10px 
-  padding-left: 15px;              /* ← Left spacing only */
+  font-size: 20px;              /* Smaller to match menu font */
+  padding: 10px 15px 10px 0 !important;  /* SAME as menu: 10px top/bottom */
   display: flex;
   align-items: center;
-  line-height: 24px;               /* ← SAME line height */
+  line-height: 24px !important; /* EXACT SAME as menu items */
+  height: 44px;                 /* Force exact match height */
 }
+
 .brand-logo {
     height: 40px;
     margin-right: 8px;
@@ -1102,16 +1100,13 @@ table tr td:first-of-type {
   }
 
   /* line 21, ../scss/layout/responsive/_laptop.scss */
-  .navbar-default .navbar-nav > li > a {
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-  /* line 26, ../scss/layout/responsive/_laptop.scss */
   .navbar-default .navbar-brand {
-	      padding-top: 12px 
-    padding-bottom: 12px 
-    font-size: 24px;
-    padding: 30px;
+    padding: 12px 15px 12px 0 !important;  /* 12px to match menu */
+    font-size: 22px;
+  }
+  .navbar-default .navbar-nav > li > a {
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
   }
 
   /* line 32, ../scss/layout/responsive/_laptop.scss */
