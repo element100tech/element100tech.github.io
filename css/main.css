@@ -156,7 +156,7 @@ p {
   font-weight: 800;
   color: #fff;
   font-size: 28px;              /* ← BIGGER than original 24px */
-  padding: 8px 20px ;
+  padding: 15px 20px ;
   margin-left: 0px;            /* ← adjust Pushes INSIDE black navbar */
   display: flex;
   align-items: center;
@@ -208,7 +208,8 @@ p {
   font-size: 14px;
   font-weight: 800;
   transition: all 0.3s;
-  padding: 15px 15px !important;  /* ← UNIFORM 15px top/bottom = perfect center */
+  padding-top: 20px;
+  padding-bottom: 20px;
   margin-top: 0;                  /* ← REMOVE THIS - was breaking alignment */
   line-height: 1.2;               /* Ensures single line height consistency */
 }
