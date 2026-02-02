@@ -157,7 +157,7 @@ p {
   color: #fff;
   font-size: 28px;              /* ← BIGGER than original 24px */
   padding: 8px 20px 8px 12px !important; /* ← 8px top/bottom = centered with menu */
-  margin-left: 10px;            /* ← Pushes INSIDE black navbar */
+  margin-left: 15px;            /* ← Pushes INSIDE black navbar */
   display: flex;
   align-items: center;
 }
