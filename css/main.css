@@ -755,12 +755,19 @@ p {
 /*}*/
 .carousel-indicators {
   background-color: #090909;
-  bottom: 10px;
+  bottom: 60px;  /* move UP from bottom */
   left: 50%;
   transform: translateX(-50%);
   border-left: 1px solid #1a1a1a;
   border-right: 1px solid #1a1a1a;
+	  padding: 0;
+  margin: 0;
+  width: auto;
+  height: auto;
 }
+
+
+
 /* line 100, ../scss/modules/_components.scss */
 .carousel-indicators li {
   background-color: #fff;
