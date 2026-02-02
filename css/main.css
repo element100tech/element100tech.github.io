@@ -1101,10 +1101,10 @@ table tr td:first-of-type {
   .navbar-default .navbar-brand {
     padding: 8px 20px 8px 18px; 
   }
-	/*
+/*
   .navbar-default .navbar-nav > li > a {
-    padding-top: 10px !important;    /* ← Same as brand */
-    padding-bottom: 10px !important; /* ← Same as brand */
+    padding-top: 10px !important;    
+    padding-bottom: 10px !important; 
   }
 */
 
