@@ -415,7 +415,7 @@ p {
   /*width: 100%;*/
   overflow: hidden; /* prevent items from spilling */
   position: relative; /* for carousel controls if needed */
-  height: 400px;       /* 400px allow carousel to push the next section down */
+  height: 270px;       /* 400px allow carousel to push the next section down */
 
 }
 
