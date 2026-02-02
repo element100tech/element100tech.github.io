@@ -156,8 +156,8 @@ p {
   font-weight: 800;
   color: #fff;
   font-size: 28px;              /* ← BIGGER than original 24px */
-  padding: 8px 20px 8px 20px ;/* ← 8px top/bottom = centered with menu */
-  margin-left: 15px;            /* ← Pushes INSIDE black navbar */
+  padding: 8px 20px ;
+  margin-left: 0px;            /* ← adjust Pushes INSIDE black navbar */
   display: flex;
   align-items: center;
 }
@@ -208,10 +208,9 @@ p {
   font-size: 14px;
   font-weight: 800;
   transition: all 0.3s;
-  padding-top: 10px;
-  padding-bottom: 8px;
-	margin-top: 2px;
-  /*line-height: 24px;*/
+  padding: 15px 15px !important;  /* ← UNIFORM 15px top/bottom = perfect center */
+  margin-top: 0;                  /* ← REMOVE THIS - was breaking alignment */
+  line-height: 1.2;               /* Ensures single line height consistency */
 }
 /* line 47, ../scss/layout/_nav.scss */
 .navbar-default .navbar-nav > li > a:hover {
@@ -240,7 +239,9 @@ p {
 }
 /* Wrap everything cleanly */
 .navbar-brand > .brand-wrap {
+  display: flex;      /* Changed from inline-flex for better consistency */
   align-items: center;
+  gap: 8px;
 }
 /* line 1, ../scss/layout/_footer.scss */
 .footer {
