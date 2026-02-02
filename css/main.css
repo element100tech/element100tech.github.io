@@ -155,8 +155,11 @@ p {
   font-family: "Abril Fatface";
   font-weight: 800;
   color: #fff;
-  font-size: 44px;
-  padding: 15px 0;
+  font-size: 28px;              /* ← BIGGER than original 24px */
+  padding: 8px 20px !important; /* ← 8px top/bottom = centered with menu */
+  margin-left: 10px;            /* ← Pushes INSIDE black navbar */
+  display: flex;
+  align-items: center;
 }
 
 .brand-logo {
@@ -205,9 +208,9 @@ p {
   font-size: 14px;
   font-weight: 800;
   transition: all 0.3s;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  line-height: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  /*line-height: 24px;*/
 }
 /* line 47, ../scss/layout/_nav.scss */
 .navbar-default .navbar-nav > li > a:hover {
@@ -1095,15 +1098,7 @@ table tr td:first-of-type {
     padding: 200px 0 60px;
   }
 
-  /* line 21, ../scss/layout/responsive/_laptop.scss */
-  .navbar-default .navbar-brand {
-    padding: 12px 15px 12px 0 !important;  /* 12px to match menu */
-    font-size: 22px;
-  }
-  .navbar-default .navbar-nav > li > a {
-    padding-top: 12px !important;
-    padding-bottom: 12px !important;
-  }
+
 
   /* line 32, ../scss/layout/responsive/_laptop.scss */
   .team-member-img, .team-member-contact {
