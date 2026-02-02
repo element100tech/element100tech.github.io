@@ -156,11 +156,12 @@ p {
   font-weight: 800;
   color: #fff;
   font-size: 24px;              /* Smaller to match menu font */
-  padding: 10px 15px 10px 0px;  /* SAME as menu: 10px top/bottom */
+  padding: 15px; 
   margin-left: 15px
   display: flex;
   align-items: center;
-  height: 44px;                 /* Force exact match height */
+  padding-top: 10px ;
+  padding-bottom: 10px;
 }
 
 .brand-logo {
