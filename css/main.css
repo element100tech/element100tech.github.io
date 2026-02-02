@@ -759,7 +759,7 @@ p {
 /*}*/
 .carousel-indicators {
   background-color: #090909;
-  bottom: 60px;  /* move UP from bottom */
+  bottom: 25%;  /* move UP from bottom */
   left: 50%;
   transform: translateX(-50%);
   border-left: 1px solid #1a1a1a;
