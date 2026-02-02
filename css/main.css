@@ -524,6 +524,7 @@ p {
 }
 .addresslocation {
   background-color: #f2013f;
+  height: 600px; 
 }
 /* line 92, ../scss/modules/_sections.scss */
 .address h1 {
@@ -1060,7 +1061,7 @@ table tr td:first-of-type {
     font-size: 62px;
   }
   .banner {
-  height: 300px; /* adjust as needed */
+  /*height: 300px;*/ /* adjust as needed */
   }	 
   /* line 7, ../scss/layout/responsive/_laptop.scss */
   .banner-item img {
@@ -1103,7 +1104,7 @@ table tr td:first-of-type {
   font-size: 100%;
  }
 	.banner {
-  height: 300px; /* adjust as needed */
+  /*height: 300px;*/ /* adjust as needed */
   }	  
   /* line 2, ../scss/layout/responsive/_desktop.scss */
   .banner-item img {
