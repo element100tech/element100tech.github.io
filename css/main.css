@@ -422,10 +422,13 @@ p {
 /* line 14, ../scss/modules/_sections.scss */
 .banner .container {
   position: relative;
-	padding-top: 80px;
   margin-left: auto;
   margin-right: auto;
 }
+.banner .row {
+  padding-top: 80px;  /* moves entire first row down */
+}
+
 /* line 18, ../scss/modules/_sections.scss */
 .banner h1 {
   margin-bottom: 20px;
