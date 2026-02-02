@@ -155,11 +155,10 @@ p {
   font-family: "Abril Fatface";
   font-weight: 800;
   color: #fff;
-  font-size: 20px;              /* Smaller to match menu font */
-  padding: 10px 15px 10px 0 !important;  /* SAME as menu: 10px top/bottom */
+  font-size: 24px;              /* Smaller to match menu font */
+  padding: 10px 15px 10px 15px;  /* SAME as menu: 10px top/bottom */
   display: flex;
   align-items: center;
-  line-height: 24px !important; /* EXACT SAME as menu items */
   height: 44px;                 /* Force exact match height */
 }
 
