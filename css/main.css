@@ -155,13 +155,8 @@ p {
   font-family: "Abril Fatface";
   font-weight: 800;
   color: #fff;
-  font-size: 24px;              /* Smaller to match menu font */
-  padding: 15px; 
-  margin-left: 15px
-  display: flex;
-  align-items: center;
-  padding-top: 10px ;
-  padding-bottom: 10px;
+  font-size: 24px;
+  padding: 15px 0;
 }
 
 .brand-logo {
@@ -210,8 +205,8 @@ p {
   font-size: 14px;
   font-weight: 800;
   transition: all 0.3s;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   line-height: 24px;
 }
 /* line 47, ../scss/layout/_nav.scss */
