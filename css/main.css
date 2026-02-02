@@ -1099,9 +1099,11 @@ table tr td:first-of-type {
   .page-top {
     padding: 200px 0 60px;
   }
+/*	
   .navbar-default .navbar-brand {
     padding: 10px 20px 10px 22px; 
   }
+*/	
 /*
   .navbar-default .navbar-nav > li > a {
     padding-top: 10px !important;    
