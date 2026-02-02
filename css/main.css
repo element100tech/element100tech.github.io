@@ -156,7 +156,7 @@ p {
   font-weight: 800;
   color: #fff;
   font-size: 28px;              /* ← BIGGER than original 24px */
-  padding: 8px 20px 8px 18px ;/* ← 8px top/bottom = centered with menu */
+  padding: 8px 20px 8px 20px ;/* ← 8px top/bottom = centered with menu */
   margin-left: 15px;            /* ← Pushes INSIDE black navbar */
   display: flex;
   align-items: center;
@@ -208,7 +208,7 @@ p {
   font-size: 14px;
   font-weight: 800;
   transition: all 0.3s;
-  padding-top: 8px;
+  padding-top: 10px;
   padding-bottom: 8px;
 	margin-top: 2px;
   /*line-height: 24px;*/
@@ -1099,7 +1099,7 @@ table tr td:first-of-type {
     padding: 200px 0 60px;
   }
   .navbar-default .navbar-brand {
-    padding: 8px 20px 8px 18px; 
+    padding: 10px 20px 10px 22px; 
   }
 /*
   .navbar-default .navbar-nav > li > a {
