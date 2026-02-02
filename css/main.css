@@ -1053,7 +1053,7 @@ table tr td:first-of-type {
 }
 @media (min-width: 992px) {
   body, tbody {
-  font-size: 215%;
+  /*font-size: 215%;*/
  }
 	/* line 3, ../scss/layout/responsive/_laptop.scss */
   h1 {
@@ -1100,7 +1100,7 @@ table tr td:first-of-type {
 }
 @media (min-width: 1200px) {
   body, tbody {
-  font-size: 215%;
+  /*font-size: 215%;*/
  }
 	.banner {
   height: 300px; /* adjust as needed */
