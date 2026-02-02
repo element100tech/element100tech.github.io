@@ -156,14 +156,18 @@ p {
   font-weight: 800;
   color: #fff;
   font-size: 24px;
-  padding: 15px;
  display: flex;
  align-items: center;
+	  padding: 15px 15px 15px 0;  /* Less left padding */
+  line-height: 1;             /* Tight line height */
 }
 .brand-logo {
     height: 40px;
     margin-right: 8px;
+	  vertical-align: middle;     /* Fallback alignment */
+  flex-shrink: 0;            /* Prevent logo squish */
 }
+
 .brand-wrap {
   display: inline-flex;
   align-items: center;
@@ -231,7 +235,10 @@ p {
   border: none;
   padding-right: 40px;
 }
-
+/* Wrap everything cleanly */
+.navbar-brand > .brand-wrap {
+  align-items: center;
+}
 /* line 1, ../scss/layout/_footer.scss */
 .footer {
   background-color: #090909;
