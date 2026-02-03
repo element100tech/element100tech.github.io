@@ -430,7 +430,7 @@ p {
   /*width: 100%;*/
   overflow: hidden; /* prevent items from spilling */
   position: relative; /* for carousel controls if needed */
-  height: 300px !important;       /* 400px allow carousel to push the next section down */
+  height: 400px !important;       /* 400px allow carousel to push the next section down */
 
 }
 
@@ -685,7 +685,7 @@ height: 100%;
   top: 0;             /* avoid percentage top unless needed */
   left: 0;
   transform: none;
-		    height: 300px !important;  /* ← Exact container height */
+		    height: 400px !important;  /* ← Exact container height */
   display: flex !important;
   align-items: center;      /* ← Vertically center content */
   /*left: 50%;*/ /* horizontally center */
@@ -703,7 +703,7 @@ height: 100%;
   .banner-item img {
   object-fit: cover;   /* fill without distortion */
     margin-top: -10px;
-	    max-height: 300px !important;  /* ← Fit in 80px container */
+	    max-height: 400px !important;  /* ← Fit in 80px container */
   width: auto !important;
   height: auto !important;
   }
@@ -807,7 +807,7 @@ height: 100%;
 }
 .banner .carousel-inner {
   height: 100%; /* make the carousel full height */
-	height: 300px !important; 
+	height: 400px !important; 
 }
 
 /* =================  CAROUSEL CUSTOM FADE EFFECT ===================== */
@@ -1034,7 +1034,7 @@ table tr td:first-of-type {
     /*top: 35%;*/
 	top: auto;
 	height: auto;
-	    height: 300px !important;  /* ← Exact container height */
+	    height: 400px !important;  /* ← Exact container height */
   display: flex !important;
   align-items: center;      /* ← Vertically center content */
   }
@@ -1042,7 +1042,7 @@ table tr td:first-of-type {
   .banner-item img {
   object-fit: cover;   /* fill without distortion */
     margin-top: -10px;
-	    max-height: 300px !important;  /* ← Fit in 80px container */
+	    max-height: 400px !important;  /* ← Fit in 80px container */
   width: auto !important;
   height: auto !important;
   }
