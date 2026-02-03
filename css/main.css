@@ -156,7 +156,7 @@ p {
   font-weight: 800;
   color: #fff;
   font-size: 28px;              /* ← BIGGER than original 24px */
-  padding: 15px 20px 15px 80px !important ;
+  padding: 15px 20px 15px 20px !important ;
   margin-left: 0 !important;            /* ← adjust Pushes INSIDE black navbar */
   display: flex;
   align-items: center;
@@ -945,7 +945,7 @@ table tr td:first-of-type {
   -moz-animation-delay: 1500ms;
   animation-delay: 1500ms;
 }
-
+/*
 .top-navigation-bar .navbar-brand {
   padding-left: 150px !important;
   padding-top: 15px !important;
@@ -958,13 +958,13 @@ table tr td:first-of-type {
   align-items: center !important;
 }
 
-/* Match menu height */
+
 .top-navigation-bar .navbar-nav > li > a {
   padding-top: 22px !important;
   padding-bottom: 22px !important;
   margin-top: 0 !important;
 }
-
+*/
 
 @media (min-width: 375px) {
  body, tbody {
