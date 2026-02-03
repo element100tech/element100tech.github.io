@@ -430,7 +430,7 @@ p {
   /*width: 100%;*/
   overflow: hidden; /* prevent items from spilling */
   position: relative; /* for carousel controls if needed */
-  height: 100px;       /* 400px allow carousel to push the next section down */
+  height: 50px !important;       /* 400px allow carousel to push the next section down */
 
 }
 
@@ -685,6 +685,9 @@ height: 100%;
   top: 0;             /* avoid percentage top unless needed */
   left: 0;
   transform: none;
+		    height: 50px !important;  /* ← Exact container height */
+  display: flex !important;
+  align-items: center;      /* ← Vertically center content */
   /*left: 50%;*/ /* horizontally center */
   /*transform: translateX(-50%);*/
   /*width: 95%;*/ /* or max-width as needed */
@@ -695,13 +698,15 @@ height: 100%;
 /*.banner-item img {
   /*box-shadow: 0px 0px 45px rgba(0, 0, 0, 0.2), 0px 0px 45px rgba(0, 0, 0, 0.2);*/
 }*/
-.banner-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* ensures image fills container without distortion */
-  margin: 0;           /* remove negative margin */
-  object-position: center 50%; /* moved down */
-}
+
+  /* line 31, ../scss/layout/responsive/_tablet.scss */
+  .banner-item img {
+  object-fit: cover;   /* fill without distortion */
+    margin-top: -10px;
+	    max-height: 50px !important;  /* ← Fit in 80px container */
+  width: auto !important;
+  height: auto !important;
+  }
 
 /* line 45, ../scss/modules/_components.scss */
 
@@ -802,6 +807,7 @@ height: 100%;
 }
 .banner .carousel-inner {
   height: 100%; /* make the carousel full height */
+	height: 50px !important; 
 }
 
 /* =================  CAROUSEL CUSTOM FADE EFFECT ===================== */
@@ -1028,22 +1034,19 @@ table tr td:first-of-type {
     /*top: 35%;*/
 	top: auto;
 	height: auto;
+	    height: 50px !important;  /* ← Exact container height */
+  display: flex !important;
+  align-items: center;      /* ← Vertically center content */
   }
   /* line 31, ../scss/layout/responsive/_tablet.scss */
   .banner-item img {
   object-fit: cover;   /* fill without distortion */
     margin-top: -10px;
+	    max-height: 50px !important;  /* ← Fit in 80px container */
+  width: auto !important;
+  height: auto !important;
   }
-#ghughu-banner-carousel {
-  width: 100%;       /* full width */
-	height: 100%;
-  /*position: relative;*/
-  /*max-width: none;*/
-  /*margin: 0 auto;*/
-  /*border: 5px solid lime;*/
 
-  /*position: absolute;*/
-}
 /* Impeding the columns of the same row to stack */	
 #address .row {
   display: flex;
