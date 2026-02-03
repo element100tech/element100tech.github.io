@@ -662,16 +662,16 @@ p {
   margin: -100px 0 0 -100px;
   /* is width and height divided by two */
 }
-/*#ghughu-banner-carousel {*/
-  /*width: 100%; */      /* full width */
-	/*height: 100%;*/
-  /*position: relative;*/
-  /*max-width: none;*/
-  /*margin: 0 auto;*/
+#ghughu-banner-carousel {
+  width: 100%;       /* full width */
+height: 100%;
+  position: relative;
+  max-width: none;
+  margin: 0 auto;
   /*border: 5px solid lime;*/
 
   /*position: absolute;*/
-/*}*/
+}
 #ghughu-banner-carousel .item:nth-child(3) img { /*because the third image as different size*/
   object-position: center 65%;
 }
