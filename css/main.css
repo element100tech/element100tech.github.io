@@ -664,7 +664,8 @@ p {
 }
 #ghughu-banner-carousel {
   width: 100%;       /* full width */
-height: 100%;
+/*height: 100%;*/
+	height: 400px !important;
   position: relative;
   max-width: none;
   margin: 0 auto;
@@ -678,6 +679,10 @@ height: 100%;
 
 /* banner carousel */
 /* line 34, ../scss/modules/_components.scss */
+.banner {
+  height: 400px !important;
+  overflow: visible !important;  /* ← Let slides peek out */
+}
 .banner-item {
   position: relative;
   width: 100%;
@@ -806,7 +811,7 @@ height: 100%;
   background-color: #F2013F;
 }
 .banner .carousel-inner {
-  height: 100%; /* make the carousel full height */
+  /*height: 100%;*/ /* make the carousel full height */
 	height: 400px !important; 
 }
 
@@ -1027,13 +1032,14 @@ table tr td:first-of-type {
   }
 	*/
   .banner {
-  height: auto; /* adjust as needed */
+   height: 400px !important;
+  overflow: visible !important;  /* ← Let slides peek out */
   }	
   /* line 28, ../scss/layout/responsive/_tablet.scss */
   .banner-item {
     /*top: 35%;*/
 	top: auto;
-	height: auto;
+	/*height: auto;*/
 	    height: 400px !important;  /* ← Exact container height */
   display: flex !important;
   align-items: center;      /* ← Vertically center content */
