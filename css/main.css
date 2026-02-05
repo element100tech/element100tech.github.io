@@ -553,6 +553,10 @@ p {
 	min-height: 500px;     /* Taller section */
 	padding: 40px 0 40px;  /* tweak values as you like */
 }
+#address2.page-top {
+  padding-top: 40px !important;  /* Less space above */
+  padding-bottom: 40px;          /* Keep bottom space */
+}
 
 /* line 97, ../scss/modules/_sections.scss */
 .address-table {
