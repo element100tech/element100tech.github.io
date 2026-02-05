@@ -551,7 +551,7 @@ p {
 }
 #address.page-top {
 	min-height: 500px;     /* Taller section */
-	padding: 80px 0 80px;  /* tweak values as you like */
+	padding: 40px 0 40px;  /* tweak values as you like */
 }
 
 /* line 97, ../scss/modules/_sections.scss */
