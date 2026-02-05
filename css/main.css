@@ -1035,14 +1035,15 @@ table tr td:first-of-type {
   overflow: visible !important;  /* ← Let slides peek out */
   }	
   /* line 28, ../scss/layout/responsive/_tablet.scss */
-  .banner-item {
-    /*top: 35%;*/
+
+	/*
+	.banner-item {
 	top: auto;
-	/*height: auto;*/
-	    height: 400px !important;  /* ← Exact container height */
+	    height: 400px !important; 
   display: flex !important;
-  align-items: center;      /* ← Vertically center content */
+  align-items: center;    
   }
+	*/
   /* line 31, ../scss/layout/responsive/_tablet.scss */
   .banner-item img {
   object-fit: cover;   /* fill without distortion */
