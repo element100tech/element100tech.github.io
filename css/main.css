@@ -688,6 +688,7 @@ p {
 .banner-item {
   position: absolute;
   top: 15% !important;
+	height: 400px !important;  
 }
 /*
 .banner-item {
