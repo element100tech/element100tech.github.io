@@ -1162,9 +1162,9 @@ table tr td:first-of-type {
   }
 */	
 .carousel-control.right {
-  right: 800px !important;   /* ← STICKS to 20px right */
+  right: 700px !important;   /* ← STICKS to 20px right */
   left: auto !important;
-  top: 600px !important;  
+  top: 300px !important;  
 
 }
 	
