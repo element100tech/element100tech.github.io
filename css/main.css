@@ -958,32 +958,10 @@ table tr td:first-of-type {
   -moz-animation-delay: 1500ms;
   animation-delay: 1500ms;
 }
-/*
-.top-navigation-bar .navbar-brand {
-  padding-left: 150px !important;
-  padding-top: 15px !important;
-  padding-bottom: 15px !important;
-  padding-right: 20px !important;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  font-size: 28px !important;
-  display: flex !important;
-  align-items: center !important;
-}
 
 
-.top-navigation-bar .navbar-nav > li > a {
-  padding-top: 22px !important;
-  padding-bottom: 22px !important;
-  margin-top: 0 !important;
-}
-*/
-
-.banner .carousel-inner .item .animated {
+* {
   animation: none !important;
-  opacity: 1 !important;
-  transform: none !important;
-  border: 3px solid red !important;
 }
 
 @media (min-width: 375px) {
