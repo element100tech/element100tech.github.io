@@ -401,6 +401,7 @@ p {
   font-family: "Open sans", "Sans Serif";
   border-radius: 0;
   height: 60px;
+	width: 40px;
   background-color: #f2013f;
   color: #fff;
   font-size: 24px;
