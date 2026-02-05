@@ -401,7 +401,7 @@ p {
   font-family: "Open sans", "Sans Serif";
   border-radius: 0;
   height: 60px;
-	width: 40px;
+	width: 110px;
   background-color: #f2013f;
   color: #fff;
   font-size: 24px;
@@ -993,7 +993,7 @@ table tr td:first-of-type {
   font-size: 14%;
 }
 	.banner {
-  height: auto;  
+  height: 600px;  
 }
   /* line 2, ../scss/layout/responsive/_big-mobile.scss */
   .banner-item {
