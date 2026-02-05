@@ -543,7 +543,7 @@ p {
 }
 .addresslocation {
   background-color: #f2013f;
-  height: 600px; 
+  height: 480px; 
 }
 /* line 92, ../scss/modules/_sections.scss */
 .address h1 {
@@ -554,6 +554,11 @@ p {
 	padding: 40px 0 40px;  /* tweak values as you like */
 }
 #address2.page-top {
+  padding-top: 40px !important;  /* Less space above */
+  padding-bottom: 40px;          /* Keep bottom space */
+}
+
+#addresslocation.page-top {
   padding-top: 40px !important;  /* Less space above */
   padding-bottom: 40px;          /* Keep bottom space */
 }
