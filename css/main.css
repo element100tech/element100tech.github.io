@@ -960,27 +960,10 @@ table tr td:first-of-type {
   animation-delay: 1500ms;
 }
 
-
-/* Fix carousel completely */
-#ghughu-banner-carousel .carousel-inner {
+#ghughu-banner-carousel {
   height: auto !important;
 }
 
-#ghughu-banner-carousel .item {
-  transition: all 0.6s ease-in-out;
-}
-
-#ghughu-banner-carousel .carousel-inner > .item.next,
-#ghughu-banner-carousel .carousel-inner > .item.active.right {
-  left: 0;
-  transform: translate3d(100%, 0, 0);
-}
-
-#ghughu-banner-carousel .carousel-inner > .item.prev,
-#ghughu-banner-carousel .carousel-inner > .item.active.left {
-  left: 0;
-  transform: translate3d(-100%, 0, 0);
-}
 
 
 @media (min-width: 375px) {
