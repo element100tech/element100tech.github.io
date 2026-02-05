@@ -687,7 +687,7 @@ p {
 
 .banner-item {
   position: absolute;
-  top: 20%;
+  top: 15% !important;
 }
 /*
 .banner-item {
