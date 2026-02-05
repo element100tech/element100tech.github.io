@@ -401,7 +401,7 @@ p {
   font-family: "Open sans", "Sans Serif";
   border-radius: 0;
   height: 60px;
-	width: 110px;
+	width: 170px;
   background-color: #f2013f;
   color: #fff;
   font-size: 24px;
@@ -990,7 +990,7 @@ table tr td:first-of-type {
 
 @media (min-width: 375px) {
  body, tbody {
-  font-size: 14%;
+  font-size: 100%;
 }
 	.banner {
   height: 900px;  
@@ -1023,7 +1023,7 @@ table tr td:first-of-type {
   /* line 3, ../scss/layout/responsive/_tablet.scss */
   body {
     /*font-size: 16px;*/
-	font-size: 14%;
+	font-size: 100%;
     line-height: 26px;
   }
 
