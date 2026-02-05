@@ -979,6 +979,10 @@ table tr td:first-of-type {
 }
 */
 
+.banner .carousel-inner .item .animated {
+  animation: none !important;
+}
+
 @media (min-width: 375px) {
  body, tbody {
   font-size: 14%;
