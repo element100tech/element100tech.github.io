@@ -550,7 +550,8 @@ p {
   /*margin-bottom: 30px;*/
 }
 #address.page-top {
-	padding: 300px 0 150px;  /* tweak values as you like */
+	min-height: 700px;     /* Taller section */
+	padding: 80px 0 80px;  /* tweak values as you like */
 }
 
 /* line 97, ../scss/modules/_sections.scss */
