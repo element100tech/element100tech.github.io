@@ -981,6 +981,9 @@ table tr td:first-of-type {
 
 .banner .carousel-inner .item .animated {
   animation: none !important;
+  opacity: 1 !important;
+  transform: none !important;
+  border: 3px solid red !important;
 }
 
 @media (min-width: 375px) {
