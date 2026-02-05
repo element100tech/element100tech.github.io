@@ -401,7 +401,7 @@ p {
   font-family: "Open sans", "Sans Serif";
   border-radius: 0;
   height: 60px;
-	width: 170px;
+	width: 185px;
   background-color: #f2013f;
   color: #fff;
   font-size: 24px;
@@ -1162,12 +1162,15 @@ table tr td:first-of-type {
   }
 */	
 .carousel-control.right {
-  right: 700px !important;   /* ← STICKS to 20px right */
+  right: 500px !important;   /* ← STICKS to 20px right */
   left: auto !important;
-  top: 300px !important;  
-
+  top: 280px !important;  
 }
-	
+	.carousel-control.left {
+  right: auto !important;   /* ← STICKS to 20px right */
+  left: 500px !important;
+  top: 280px !important;  
+}
 /*
   .navbar-default .navbar-nav > li > a {
     padding-top: 10px !important;    
