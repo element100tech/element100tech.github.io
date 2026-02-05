@@ -960,8 +960,8 @@ table tr td:first-of-type {
 }
 
 
-* {
-  animation: none !important;
+.carousel-fade .carousel-inner .item {
+  transition: opacity 1.5s ease-in-out !important;
 }
 
 @media (min-width: 375px) {
