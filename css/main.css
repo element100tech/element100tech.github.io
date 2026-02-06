@@ -992,6 +992,14 @@ table tr td:first-of-type {
  body, tbody {
   font-size: 100%;
 }
+#ghughu-banner-carousel {
+min-height: 2000px;               /* taller carousel */
+  }
+
+  .banner .carousel-inner,
+  .banner-item {
+    min-height: 420px;
+  }	
 	.banner {
    height: 4100px !important;
   overflow: visible !important;  /* ← Let slides peek out */
