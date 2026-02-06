@@ -784,7 +784,7 @@ filter: alpha(opacity=100);
 .carousel-control.left {
   left: 100px !important;    /* ← STICKS to 20px left */
   right: auto !important;
-  top: 80% !important; 
+  top: 90% !important; 
   /*margin-left: -286px;*/
   background-color: #090909;
 }
@@ -988,25 +988,18 @@ table tr td:first-of-type {
   height: auto !important;
 }
 
-
-
 @media (max-width: 480px) {
- body, tbody {
-  font-size: 95%;
-}
-#ghughu-banner-carousel {
-min-height: 1000px;               /* taller carousel */
-  }
+  body, tbody { font-size: 95%; }
 
+  .banner {
+    min-height: 420px !important;     /* Reasonable mobile height */
+  }
+  
+  #ghughu-banner-carousel,
   .banner .carousel-inner,
   .banner-item {
-    min-height: 1000px;
-  }	
-	.banner {
-	height: 200px !important;
-	position: relative;    /* Ensures normal stacking */
-    overflow: visible;     /* Prevents clipping */
-}
+    min-height: 420px !important;     /* All match banner height */
+  }
   /* line 2, ../scss/layout/responsive/_big-mobile.scss */
 
 .carousel-control.right {
