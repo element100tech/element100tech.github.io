@@ -994,25 +994,26 @@ table tr td:first-of-type {
   body, tbody { font-size: 95%; }
 
   .banner {
-    min-height: 520px !important;     /* Reasonable mobile height */
+    min-height: 600px !important;     /* Reasonable mobile height */
+	      margin-top: -80px;
   }
   
   #ghughu-banner-carousel,
   .banner .carousel-inner,
   .banner-item {
-    min-height: 520px !important;     /* All match banner height */
+    min-height: 600px !important;     /* All match banner height */
   }
   /* line 2, ../scss/layout/responsive/_big-mobile.scss */
 
 .carousel-control.right {
   right: 100px !important;   /* ← STICKS to 20px right */
   left: auto !important;
-  top: 90% !important;
+  top: 87% !important;
 }
 	.carousel-control.left {
   right: auto !important;   /* ← STICKS to 20px right */
   left: 100px !important;
-  top: 90% !important;  
+  top: 87% !important;  
 }
 	.carousel-indicators {
   bottom: 10%;  /* move UP from bottom */
