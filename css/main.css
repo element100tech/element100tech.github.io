@@ -995,7 +995,7 @@ table tr td:first-of-type {
 
   .banner {
     min-height: 680px !important;     /* Reasonable mobile height */
-	      margin-top: -200px;
+   margin-top: -40px !important;    /* Much smaller pull-up */
   }
   .banner .row {
   padding-top: 0px;  /* moves entire first row down */
