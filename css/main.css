@@ -993,11 +993,10 @@ table tr td:first-of-type {
   font-size: 100%;
 }
 	.banner {
-  height: 900px;  
+  height: 2000px;  
 }
   /* line 2, ../scss/layout/responsive/_big-mobile.scss */
   .banner-item {
-  height: auto;
   }
 .carousel-control.right {
   right: 100px !important;   /* ← STICKS to 20px right */
