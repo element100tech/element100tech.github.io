@@ -1007,7 +1007,7 @@ table tr td:first-of-type {
 }
 /* line 22, ../scss/modules/_sections.scss */
 .banner p {
-  max-width: 400px;
+  max-width: 300px;
 }
   #ghughu-banner-carousel,
   .banner .carousel-inner,
