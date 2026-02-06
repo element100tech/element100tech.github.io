@@ -1003,8 +1003,9 @@ min-height: 1000px;               /* taller carousel */
     min-height: 1000px;
   }	
 	.banner {
-		height: 200px !important;
-
+	height: 200px !important;
+	position: relative;    /* Ensures normal stacking */
+    overflow: visible;     /* Prevents clipping */
 }
   /* line 2, ../scss/layout/responsive/_big-mobile.scss */
 
@@ -1016,7 +1017,7 @@ min-height: 1000px;               /* taller carousel */
 	.carousel-control.left {
   right: auto !important;   /* ← STICKS to 20px right */
   left: 100px !important;
-  top: 30% !important;  
+  top: 50% !important;  
 }
 	.carousel-indicators {
   bottom: 50%;  /* move UP from bottom */
