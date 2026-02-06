@@ -993,25 +993,17 @@ table tr td:first-of-type {
   font-size: 100%;
 }
 #ghughu-banner-carousel {
-min-height: 2000px;               /* taller carousel */
+min-height: 600px;               /* taller carousel */
   }
 
   .banner .carousel-inner,
   .banner-item {
-    min-height: 420px;
+    min-height: 600px;
   }	
 	.banner {
-   height: 4100px !important;
-  overflow: visible !important;  /* ← Let slides peek out */
 }
   /* line 2, ../scss/layout/responsive/_big-mobile.scss */
-  .banner-item {
-	    object-fit: cover;   /* fill without distortion */
-    margin-top: -10px;
-	    max-height: 4000px !important;  /* ← Fit in 80px container */
-  width: auto !important;
-  height: auto !important;
-  }
+
 .carousel-control.right {
   right: 100px !important;   /* ← STICKS to 20px right */
   left: auto !important;
