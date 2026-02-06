@@ -1003,14 +1003,15 @@ min-height: 1000px;               /* taller carousel */
     min-height: 1000px;
   }	
 	.banner {
-		height: 700px;
+		height: 200px !important;
+
 }
   /* line 2, ../scss/layout/responsive/_big-mobile.scss */
 
 .carousel-control.right {
   right: 100px !important;   /* ← STICKS to 20px right */
   left: auto !important;
-  top: 20% !important;  
+  top: 50px !important;
 }
 	.carousel-control.left {
   right: auto !important;   /* ← STICKS to 20px right */
