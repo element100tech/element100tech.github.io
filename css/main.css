@@ -994,7 +994,7 @@ table tr td:first-of-type {
   body, tbody { font-size: 80%; }
 
   .banner {
-    min-height: 680px !important;     /* Reasonable mobile height */
+    min-height: 710px !important;     /* Reasonable mobile height */
    margin-top: 0px !important;    /* Much smaller pull-up */
   }
   .banner .row {
@@ -1012,8 +1012,8 @@ table tr td:first-of-type {
   #ghughu-banner-carousel,
   .banner .carousel-inner,
   .banner-item {
-    min-height: 680px !important;     /* All match banner height */
-	  max-width: 380px !important;
+    min-height: 71px !important;     /* All match banner height */
+	  max-width: 300px !important;
 	top: 10px;
   }
   /* line 2, ../scss/layout/responsive/_big-mobile.scss */
