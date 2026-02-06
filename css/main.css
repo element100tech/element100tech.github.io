@@ -991,7 +991,7 @@ table tr td:first-of-type {
 }
 
 @media (max-width: 480px) {
-  body, tbody { font-size: 95%; }
+  body, tbody { font-size: 80%; }
 
   .banner {
     min-height: 680px !important;     /* Reasonable mobile height */
@@ -1013,6 +1013,7 @@ table tr td:first-of-type {
   .banner .carousel-inner,
   .banner-item {
     min-height: 680px !important;     /* All match banner height */
+	  max-width: 100px !important;
   }
   /* line 2, ../scss/layout/responsive/_big-mobile.scss */
 
