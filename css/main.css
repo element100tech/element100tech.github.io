@@ -769,6 +769,7 @@ filter: alpha(opacity=100);
   right: 100px !important;   /* ← STICKS to 20px right */
   left: auto !important;
 	top: 90% !important; 
+	  transform: translateY(-50%) !important;  /* ← Centers arrow in its container */
   /*margin-right: 15px;*/
   /*to neget the col padding to align with container*/
   background-color: #090909;
@@ -785,6 +786,7 @@ filter: alpha(opacity=100);
   left: 100px !important;    /* ← STICKS to 20px left */
   right: auto !important;
   top: 90% !important; 
+	  transform: translateY(-50%) !important;  /* ← Centers arrow in its container */
   /*margin-left: -286px;*/
   background-color: #090909;
 }
@@ -992,28 +994,28 @@ table tr td:first-of-type {
   body, tbody { font-size: 95%; }
 
   .banner {
-    min-height: 420px !important;     /* Reasonable mobile height */
+    min-height: 520px !important;     /* Reasonable mobile height */
   }
   
   #ghughu-banner-carousel,
   .banner .carousel-inner,
   .banner-item {
-    min-height: 420px !important;     /* All match banner height */
+    min-height: 520px !important;     /* All match banner height */
   }
   /* line 2, ../scss/layout/responsive/_big-mobile.scss */
 
 .carousel-control.right {
   right: 100px !important;   /* ← STICKS to 20px right */
   left: auto !important;
-  top: 50px !important;
+  top: 90% !important;
 }
 	.carousel-control.left {
   right: auto !important;   /* ← STICKS to 20px right */
   left: 100px !important;
-  top: 50% !important;  
+  top: 90% !important;  
 }
 	.carousel-indicators {
-  bottom: 50%;  /* move UP from bottom */
+  bottom: 10%;  /* move UP from bottom */
 }
   /* line 6, ../scss/layout/responsive/_big-mobile.scss */
   .about-heading {
