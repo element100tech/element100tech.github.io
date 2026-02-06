@@ -997,7 +997,18 @@ table tr td:first-of-type {
     min-height: 680px !important;     /* Reasonable mobile height */
 	      margin-top: -200px;
   }
-  
+  .banner .row {
+  padding-top: 0px;  /* moves entire first row down */
+}
+
+/* line 18, ../scss/modules/_sections.scss */
+.banner h1 {
+  margin-bottom: 5px;
+}
+/* line 22, ../scss/modules/_sections.scss */
+.banner p {
+  max-width: 400px;
+}
   #ghughu-banner-carousel,
   .banner .carousel-inner,
   .banner-item {
