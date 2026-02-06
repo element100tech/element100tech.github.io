@@ -993,12 +993,12 @@ table tr td:first-of-type {
   font-size: 100%;
 }
 #ghughu-banner-carousel {
-min-height: 600px;               /* taller carousel */
+min-height: 100px;               /* taller carousel */
   }
 
   .banner .carousel-inner,
   .banner-item {
-    min-height: 600px;
+    min-height: 100px;
   }	
 	.banner {
 }
