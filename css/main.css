@@ -994,14 +994,14 @@ table tr td:first-of-type {
   body, tbody { font-size: 95%; }
 
   .banner {
-    min-height: 600px !important;     /* Reasonable mobile height */
-	      margin-top: -80px;
+    min-height: 680px !important;     /* Reasonable mobile height */
+	      margin-top: -200px;
   }
   
   #ghughu-banner-carousel,
   .banner .carousel-inner,
   .banner-item {
-    min-height: 600px !important;     /* All match banner height */
+    min-height: 680px !important;     /* All match banner height */
   }
   /* line 2, ../scss/layout/responsive/_big-mobile.scss */
 
