@@ -995,7 +995,7 @@ table tr td:first-of-type {
 
   .banner {
     min-height: 380px !important;     /* Reasonable mobile height */
-	width: 300px !important; 
+	width: 350px !important; 
    margin-top: 0px !important;    /* Much smaller pull-up */
   }
   .banner .row {
@@ -1005,7 +1005,7 @@ table tr td:first-of-type {
 /* line 18, ../scss/modules/_sections.scss */
 .banner h1 {
   margin-bottom: 0px !important;
-	 font-size: 95% !important;
+	 font-size: 110% !important;
 }
 /* line 22, ../scss/modules/_sections.scss */
 .banner p {
