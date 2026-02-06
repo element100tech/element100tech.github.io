@@ -1012,9 +1012,9 @@ table tr td:first-of-type {
   #ghughu-banner-carousel,
   .banner .carousel-inner,
   .banner-item {
-    min-height: 71px !important;     /* All match banner height */
-	  max-width: 300px !important;
-	top: 10px;
+    min-height: 710px !important;     /* All match banner height */
+	  max-width: auto;
+	top: 0px;
   }
   /* line 2, ../scss/layout/responsive/_big-mobile.scss */
 
