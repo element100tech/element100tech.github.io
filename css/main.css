@@ -1030,7 +1030,7 @@ table tr td:first-of-type {
   top: 87% !important;  
 }
 	.carousel-indicators {
-  bottom: 80%;  /* move UP from bottom */
+  bottom: 10%;  /* move UP from bottom */
 }
   /* line 6, ../scss/layout/responsive/_big-mobile.scss */
   .about-heading {
