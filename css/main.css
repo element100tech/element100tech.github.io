@@ -994,7 +994,7 @@ table tr td:first-of-type {
   body, tbody { font-size: 100%; }
 
   .banner {
-    min-height: 300px !important;     /* Reasonable mobile height */
+    min-height: 350px !important;     /* Reasonable mobile height */
    margin-top: 0px !important;    /* Much smaller pull-up */
   }
   .banner .row {
@@ -1004,16 +1004,16 @@ table tr td:first-of-type {
 /* line 18, ../scss/modules/_sections.scss */
 .banner h1 {
   margin-bottom: 0px;
-	 font-size: 90%;
+	 font-size: 20%;
 }
 /* line 22, ../scss/modules/_sections.scss */
 .banner p {
-  max-width: 340px;
+  max-width: 350px;
 }
   #ghughu-banner-carousel,
   .banner .carousel-inner,
   .banner-item {
-    min-height: 300px !important;     /* All match banner height */
+    min-height: 350px !important;     /* All match banner height */
 	  max-width: auto;
 	top: 0px;
   }
@@ -1030,7 +1030,7 @@ table tr td:first-of-type {
   top: 87% !important;  
 }
 	.carousel-indicators {
-  bottom: 10%;  /* move UP from bottom */
+  bottom: 80%;  /* move UP from bottom */
 }
   /* line 6, ../scss/layout/responsive/_big-mobile.scss */
   .about-heading {
