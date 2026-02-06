@@ -768,7 +768,7 @@ filter: alpha(opacity=100);
 .carousel-control.right {
   right: 100px !important;   /* ← STICKS to 20px right */
   left: auto !important;
-	top: 60% !important; 
+	top: 90% !important; 
   /*margin-right: 15px;*/
   /*to neget the col padding to align with container*/
   background-color: #090909;
@@ -784,7 +784,7 @@ filter: alpha(opacity=100);
 .carousel-control.left {
   left: 100px !important;    /* ← STICKS to 20px left */
   right: auto !important;
-  top: 60% !important; 
+  top: 80% !important; 
   /*margin-left: -286px;*/
   background-color: #090909;
 }
@@ -1000,7 +1000,7 @@ min-height: 1000px;               /* taller carousel */
 
   .banner .carousel-inner,
   .banner-item {
-    min-height: 200px;
+    min-height: 1000px;
   }	
 	.banner {
 }
@@ -1009,12 +1009,15 @@ min-height: 1000px;               /* taller carousel */
 .carousel-control.right {
   right: 100px !important;   /* ← STICKS to 20px right */
   left: auto !important;
-  top: 200px !important;  
+  top: 80% !important;  
 }
 	.carousel-control.left {
   right: auto !important;   /* ← STICKS to 20px right */
   left: 100px !important;
-  top: 200px !important;  
+  top: 80% !important;  
+}
+	.carousel-indicators {
+  bottom: 50%;  /* move UP from bottom */
 }
   /* line 6, ../scss/layout/responsive/_big-mobile.scss */
   .about-heading {
