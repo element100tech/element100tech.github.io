@@ -988,17 +988,17 @@ table tr td:first-of-type {
 
 
 
-@media (min-width: 375px) {
+@media (max-width: 375px) {
  body, tbody {
   font-size: 100%;
 }
 #ghughu-banner-carousel {
-min-height: 100px;               /* taller carousel */
+min-height: 200px;               /* taller carousel */
   }
 
   .banner .carousel-inner,
   .banner-item {
-    min-height: 100px;
+    min-height: 200px;
   }	
 	.banner {
 }
