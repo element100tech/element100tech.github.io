@@ -1191,7 +1191,7 @@ table tr td:first-of-type {
 	.carousel-control.left {
   right: auto !important;   /* ← STICKS to 20px right */
   left: 500px !important;
-  top: 380px !important;  
+  top: 350px !important;  
 }
 /*
   .navbar-default .navbar-nav > li > a {
