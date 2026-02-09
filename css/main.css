@@ -1038,7 +1038,7 @@ table tr td:first-of-type {
   .about-heading {
     top: 25% !important;
   }
-.about-heading .about-text-narrow {
+.about-heading {
   max-width: 50px !important;      /* narrower text block */
   margin-left: auto !important;     /* center inside the col */
   margin-right: auto !important;
