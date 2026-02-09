@@ -1042,7 +1042,7 @@ table tr td:first-of-type {
   position: relative !important;   /* back into normal flow */
 }
 	#address .about-heading p {
-  max-width: 200px !important;       /* adjust to taste */
+  max-width: 320px !important;       /* adjust to taste */
   margin-left: auto !important;
   margin-right: auto !important;
 		border: 1px solid yellow;        /* debug – remove later */
