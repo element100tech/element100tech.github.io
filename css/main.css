@@ -1038,7 +1038,11 @@ table tr td:first-of-type {
   .about-heading {
     top: 25% !important;
   }
-
+.about-heading .about-text-narrow {
+  max-width: 360px !important;      /* narrower text block */
+  margin-left: auto !important;     /* center inside the col */
+  margin-right: auto !important;
+}
   /* line 10, ../scss/layout/responsive/_big-mobile.scss */
   .form-wrapper {
     padding: 10px !important;
