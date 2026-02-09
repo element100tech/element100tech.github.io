@@ -1038,10 +1038,13 @@ table tr td:first-of-type {
   .about-heading {
     top: 25% !important;
   }
-.about-heading {
-  max-width: 50px !important;      /* narrower text block */
-  margin-left: auto !important;     /* center inside the col */
-  margin-right: auto !important;
+#address .about-heading {
+  position: static !important;   /* back into normal flow */
+}
+	#address .about-heading p {
+  max-width: 200px;       /* adjust to taste */
+  margin-left: auto;
+  margin-right: auto;
 }
   /* line 10, ../scss/layout/responsive/_big-mobile.scss */
   .form-wrapper {
