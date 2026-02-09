@@ -1039,12 +1039,13 @@ table tr td:first-of-type {
     top: 25% !important;
   }
 #address .about-heading {
-  position: static !important;   /* back into normal flow */
+  position: relative !important;   /* back into normal flow */
 }
 	#address .about-heading p {
-  max-width: 200px;       /* adjust to taste */
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 200px !important;       /* adjust to taste */
+  margin-left: auto !important;
+  margin-right: auto !important;
+		border: 1px solid yellow;        /* debug – remove later */
 }
   /* line 10, ../scss/layout/responsive/_big-mobile.scss */
   .form-wrapper {
