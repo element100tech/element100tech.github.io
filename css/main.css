@@ -242,10 +242,15 @@ p {
   padding-right: 40px;
 }
 /* Wrap everything cleanly */
-.navbar-brand > .brand-wrap {
-  display: flex;      /* Changed from inline-flex for better consistency */
+/*.navbar-brand > .brand-wrap {
+  display: flex;     
   align-items: center;
   gap: 8px;
+}*/
+.navbar-header {
+  display: flex !important;
+  align-items: center !important;
+  min-height: 60px !important;
 }
 /* line 1, ../scss/layout/_footer.scss */
 .footer {
