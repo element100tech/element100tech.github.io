@@ -991,11 +991,16 @@ table tr td:first-of-type {
 }
 
 @media (max-width: 480px) {
-  /*body, tbody { font-size: 100%; }*/
+  /* PREVENT HORIZONTAL SCROLL */
+  html, body {
+    overflow-x: hidden !important;
+    width: 100% !important;
+  }
 
   .banner {
     min-height: 580px !important;     /* Reasonable mobile height */
-	width: 375px !important; 
+    width: 100% !important;     
+    max-width: 100% !important;
    margin-top: 0px !important;    /* Much smaller pull-up */
   }
   .banner .row {
@@ -1049,9 +1054,11 @@ table tr td:first-of-type {
   #address .about-heading,
   .team-member {
     width: 100% !important;  /* 95% of viewport width */
-    max-width: 350px !important;  /* safety cap */
-    margin: 0 10px 10px 0 !important;   /* center it */
-    padding: 0 !important;
+    max-width: 100% !important;  /* safety cap */
+    margin-left: auto !important;
+    margin-right: auto !important;
+    /*margin: 0 10px 10px 0 !important;   
+    padding: 0 !important;*/
   }
 
  #address2 .col-sm-6 {
@@ -1070,6 +1077,12 @@ table tr td:first-of-type {
   margin: 0 !important;
   padding: 0 !important;
 }
+
+  /* Force ALL content to fit */
+  * {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }
 	
 }
 @media (min-width: 750px) {
