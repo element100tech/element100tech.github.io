@@ -1028,8 +1028,8 @@ table tr td:first-of-type {
   
   .navbar-header .navbar-toggle {
     margin-left: auto !important;     /* ← FORCE toggle to RIGHT */
-    margin-right: 0 !important;
-    order: 2 !important;             /* ← PUSHES toggle AFTER brand */
+    margin-right: -8px !important;   /* ← 8px MORE RIGHT */
+    order: 2 !important;
   }
   
   .navbar-header .navbar-brand {
