@@ -1045,8 +1045,8 @@ table tr td:first-of-type {
     margin-top: 20px;   /* or whatever you like */
   }	
 
-  #address .about-heading p,
-  .team-member-desc p {
+  #address .about-heading,
+  .team-member-desc {
 	      /* Reset ONLY margin and width */
     margin: 0 !important;
     width: auto !important;
