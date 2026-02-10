@@ -1044,13 +1044,16 @@ table tr td:first-of-type {
 #address .about-heading h1 {
     margin-top: 20px;   /* or whatever you like */
   }	
-	#address .about-heading p {
+	#address .about-heading {
   /*max-width: 350px !important;   */
 	 max-width: 92% !important;	
   margin-left: auto !important;
   margin-right: auto !important;
 		border: 1px solid yellow;        /* debug – remove later */
 }
+  .team-member {
+    padding: 10px 0 !important;   /* much less top/bottom space */
+  }	
 .team-member-desc p { 
   max-width: 92%;  
   text-align: justify; 
