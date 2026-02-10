@@ -1048,16 +1048,11 @@ table tr td:first-of-type {
 
   #address .about-heading,
   .team-member {
-	      /* Reset ONLY margin and width */
-    margin: 0 !important;
-    width: auto !important;
-	      padding: 0 !important;
-    
-    /* NOW apply your desired styles */
-    /*margin: 0 15px 15px 15px !important;  */
-
-    width: 310px !important;  /* account for margins */
-	  border: 1px solid yellow;        /* debug – remove later */
+    width: 95% !important;  /* 95% of viewport width */
+    max-width: 300px !important;  /* safety cap */
+    margin: 0 auto !important;   /* center it */
+    padding: 0 !important;
+    border: 1px solid yellow !important;
   }
   /* line 10, ../scss/layout/responsive/_big-mobile.scss */
   .form-wrapper {
