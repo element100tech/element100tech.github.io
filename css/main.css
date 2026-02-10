@@ -1048,8 +1048,8 @@ table tr td:first-of-type {
 
   #address .about-heading,
   .team-member {
-    width: 97% !important;  /* 95% of viewport width */
-    max-width: 340px !important;  /* safety cap */
+    width: 100% !important;  /* 95% of viewport width */
+    max-width: 370px !important;  /* safety cap */
     margin: 0 auto !important;   /* center it */
     padding: 0 !important;
     border: 1px solid yellow !important;
