@@ -1114,7 +1114,7 @@ table tr td:first-of-type {
 
   .formmicrosoft,
   .formmicrosoft iframe {
-    width: 100vw !important;      /* Full screen width */
+    width: 90% !important;      /* Full screen width */
     height: 800px !important;
     max-width: none !important;   /* Ignore container limits */
     margin: 0 !important;
@@ -1126,7 +1126,7 @@ table tr td:first-of-type {
 #addresslocation .address-table tr:nth-child(3) td:last-child {
   padding-left: 0 !important;
   text-align: left !important;
-  margin-left: -50px !important;  /* ← MORE LEFT (was -30px) */
+  margin-left: -80px !important;  /* ← MORE LEFT (was -30px) */
 }
 	#addresslocation  tbody {
    font-size: 90% !important;
