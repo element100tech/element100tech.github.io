@@ -1080,8 +1080,11 @@ table tr td:first-of-type {
 #addresslocation .address-table tr:nth-child(3) td:last-child {
   padding-left: 0 !important;     /* removes left padding */
   text-align: left !important;    /* forces left alignment */
-  margin-left: -10px !important;  /* pulls it further left */
+  margin-left: -30px !important;  /* pulls it further left */
 }
+	#addresslocation  tbody {
+   font-size: 50% !important;
+	}
   /* Force ALL content to fit */
   * {
     max-width: 100% !important;
