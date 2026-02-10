@@ -1022,6 +1022,10 @@ table tr td:first-of-type {
     order: 1 !important;             /* ← KEEPS brand FIRST (left) */
     margin-right: auto !important;
   }
+	.navbar-brand {
+    margin-left: -8px !important;  /* pulls 8px more LEFT */
+    padding-left: 8px !important;  /* reduces internal padding */
+  }
   .banner {
     min-height: 580px !important;     /* Reasonable mobile height */
     width: 100% !important;     
