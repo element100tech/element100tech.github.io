@@ -600,26 +600,21 @@ p {
 /*  max-width: 500px;*/
 /*  margin: 0 auto;*/
 /*}*/
-#address .container,
-#address .row,
-.about-us .container,
-.about-us .row {
-  max-width: 1170px !important;    /* Bootstrap LG container width */
+.about-heading,
+.about-heading .container,
+.about-heading .row {
+  max-width: 1170px !important;    /* Match navbar */
   width: 100% !important;
   margin: 0 auto !important;
-  padding-left: 15px !important;   /* Match Bootstrap column padding */
+  padding-left: 15px !important;
   padding-right: 15px !important;
 }
 
-/* Reset column padding to prevent overflow */
-#address .col-md-5,
-#address .col-md-6,
-#address .col-md-7,
-.about-us [class*="col-"] {
+.about-heading [class*="col-"] {
   padding-left: 15px !important;
   padding-right: 15px !important;
-  max-width: none !important;      /* Let Bootstrap handle width */
 }
+
 .email-us .address-wrapper,
 .email-us .email-wrapper,
 .email-us .form-wrapper,
