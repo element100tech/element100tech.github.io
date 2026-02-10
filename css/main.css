@@ -1028,7 +1028,7 @@ table tr td:first-of-type {
   
   .navbar-header .navbar-toggle {
     margin-left: auto !important;     /* ← FORCE toggle to RIGHT */
-    margin-right: -15px !important;   /* ← 8px MORE RIGHT */
+    margin-right: -25px !important;   /* ← 8px MORE RIGHT */
     order: 2 !important;
   }
   
@@ -1126,7 +1126,8 @@ table tr td:first-of-type {
 #addresslocation .address-table tr:nth-child(3) td:last-child {
   padding-left: 0 !important;
   text-align: left !important;
-  margin-left: -120px !important;  /* ← MORE LEFT (was -30px) */
+  padding-right: 60px !important;     /* Uses POSITIVE padding instead */
+  width: auto !important;
 }
 	#addresslocation  tbody {
    font-size: 90% !important;
