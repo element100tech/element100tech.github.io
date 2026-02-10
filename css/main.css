@@ -1112,21 +1112,24 @@ table tr td:first-of-type {
     padding: 10px !important;
   }
 
-.formmicrosoft,
-.formmicrosoft iframe {
-  width: 100% !important;
-  height: 800px !important;
-  display: block !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
+  .formmicrosoft,
+  .formmicrosoft iframe {
+    width: 100vw !important;      /* Full screen width */
+    height: 800px !important;
+    max-width: none !important;   /* Ignore container limits */
+    margin: 0 !important;
+    padding: 0 !important;
+    position: relative !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;  /* Centers perfectly */
+  }
 #addresslocation .address-table tr:nth-child(3) td:last-child {
   padding-left: 0 !important;     /* removes left padding */
   text-align: left !important;    /* forces left alignment */
   margin-left: -30px !important;  /* pulls it further left */
 }
 	#addresslocation  tbody {
-   font-size: 50% !important;
+   font-size: 90% !important;
 	}
   /* Force ALL content to fit */
   * {
