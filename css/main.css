@@ -1049,8 +1049,8 @@ table tr td:first-of-type {
   #address .about-heading,
   .team-member {
     width: 100% !important;  /* 95% of viewport width */
-    max-width: 370px !important;  /* safety cap */
-    margin: 0 7px 7px 0 !important;   /* center it */
+    max-width: 350px !important;  /* safety cap */
+    margin: 0 10px 10px 0 !important;   /* center it */
     padding: 0 !important;
   }
   /* line 10, ../scss/layout/responsive/_big-mobile.scss */
