@@ -1124,9 +1124,9 @@ table tr td:first-of-type {
     transform: translateX(-50%) !important;  /* Centers perfectly */
   }
 #addresslocation .address-table tr:nth-child(3) td:last-child {
-  padding-left: 0 !important;     /* removes left padding */
-  text-align: left !important;    /* forces left alignment */
-  margin-left: -30px !important;  /* pulls it further left */
+  padding-left: 0 !important;
+  text-align: left !important;
+  margin-left: -50px !important;  /* ← MORE LEFT (was -30px) */
 }
 	#addresslocation  tbody {
    font-size: 90% !important;
