@@ -1046,10 +1046,14 @@ table tr td:first-of-type {
   }	
 	#address .about-heading p {
   /*max-width: 350px !important;   */
-	 max-width: 85% !important;	
+	 max-width: 92% !important;	
   margin-left: auto !important;
   margin-right: auto !important;
 		border: 1px solid yellow;        /* debug – remove later */
+}
+.team-member-desc p { 
+  max-width: 92%;  
+  text-align: justify; 
 }
   /* line 10, ../scss/layout/responsive/_big-mobile.scss */
   .form-wrapper {
