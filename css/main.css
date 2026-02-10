@@ -161,7 +161,11 @@ p {
   display: flex;
   align-items: center;
 }
-
+  
+  .navbar-brand {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
 .brand-logo {
     height: 40px;
     margin-right: 8px;
@@ -208,11 +212,16 @@ p {
   font-size: 14px;
   font-weight: 800;
   transition: all 0.3s;
-  padding-top: 20px;
-  padding-bottom: 20px;
+    padding-top: 15px !important;    /* Match brand's 15px */
+    padding-bottom: 15px !important;  /* Match brand's 15px */
   margin-top: 0;                  /* ← REMOVE THIS - was breaking alignment */
   line-height: 1.2;               /* Ensures single line height consistency */
 }
+  .navbar-brand {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
+
 /* line 47, ../scss/layout/_nav.scss */
 .navbar-default .navbar-nav > li > a:hover {
   background-color: transparent;
