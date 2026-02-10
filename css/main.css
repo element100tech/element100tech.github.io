@@ -1041,8 +1041,11 @@ table tr td:first-of-type {
 #address .about-heading {
   position: relative !important;   /* back into normal flow */
 }
+#address .about-heading h1 {
+    margin-top: 20px;   /* or whatever you like */
+  }	
 	#address .about-heading p {
-  max-width: 320px !important;       /* adjust to taste */
+  max-width: 350px !important;       /* adjust to taste */
   margin-left: auto !important;
   margin-right: auto !important;
 		border: 1px solid yellow;        /* debug – remove later */
