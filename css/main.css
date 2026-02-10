@@ -1130,7 +1130,7 @@ table tr td:first-of-type {
   width: auto !important;
 }
 	#addresslocation  tbody {
-   font-size: 90% !important;
+   font-size: 80% !important;
 	}
   /* Force ALL content to fit */
   * {
