@@ -1050,7 +1050,6 @@ table tr td:first-of-type {
     margin: 0 15px 15px 15px !important;  /* same left/right margins */
     padding: 0 !important;
     width: 92% !important;  /* account for margins */
-    box-sizing: border-box !important;
 	  border: 1px solid yellow;        /* debug – remove later */
   }
   /* line 10, ../scss/layout/responsive/_big-mobile.scss */
