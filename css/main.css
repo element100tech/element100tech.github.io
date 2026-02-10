@@ -1042,7 +1042,7 @@ table tr td:first-of-type {
   position: relative !important;   /* back into normal flow */
 }
 #address .about-heading h1 {
-    margin-top: 20px;   /* or whatever you like */
+    margin-top: 40px;   /* or whatever you like */
   }	
 
   #address .about-heading,
@@ -1050,10 +1050,11 @@ table tr td:first-of-type {
 	      /* Reset ONLY margin and width */
     margin: 0 !important;
     width: auto !important;
+	      padding: 0 !important;
     
     /* NOW apply your desired styles */
-    margin: 0 15px 15px 15px !important;  /* same left/right margins */
-    padding: 0 !important;
+    /*margin: 0 15px 15px 15px !important;  */
+
     width: 92% !important;  /* account for margins */
 	  border: 1px solid yellow;        /* debug – remove later */
   }
