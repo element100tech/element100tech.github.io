@@ -1047,6 +1047,11 @@ table tr td:first-of-type {
 
   #address .about-heading p,
   .team-member-desc p {
+	      /* Reset ONLY margin and width */
+    margin: 0 !important;
+    width: auto !important;
+    
+    /* NOW apply your desired styles */
     margin: 0 15px 15px 15px !important;  /* same left/right margins */
     padding: 0 !important;
     width: 92% !important;  /* account for margins */
