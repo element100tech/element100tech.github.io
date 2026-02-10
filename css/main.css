@@ -1098,8 +1098,8 @@ table tr td:first-of-type {
   .team-member {
     width: 100% !important;  /* 95% of viewport width */
     max-width: 100% !important;  /* safety cap */
-    margin-left: auto !important;
-    margin-right: auto !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
     /*margin: 0 10px 10px 0 !important;   
     padding: 0 !important;*/
   }
