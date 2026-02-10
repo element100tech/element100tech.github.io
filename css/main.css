@@ -342,7 +342,7 @@ p {
 .team-member-img {
   width: 100%;
   height: 230px;
-  background-image: url("../images/about-us/5.jpg");
+  /*background-image: url("../images/about-us/5.jpg");*/
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1045,7 +1045,8 @@ table tr td:first-of-type {
     margin-top: 20px;   /* or whatever you like */
   }	
 	#address .about-heading p {
-  max-width: 350px !important;       /* adjust to taste */
+  /*max-width: 350px !important;   */
+	 max-width: 85% !important;	
   margin-left: auto !important;
   margin-right: auto !important;
 		border: 1px solid yellow;        /* debug – remove later */
