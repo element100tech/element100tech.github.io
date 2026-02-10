@@ -1053,6 +1053,10 @@ table tr td:first-of-type {
     margin: 0 10px 10px 0 !important;   /* center it */
     padding: 0 !important;
   }
+
+ #address2 .col-sm-6 {
+	 margin-top: 20px !important;
+ }
   /* line 10, ../scss/layout/responsive/_big-mobile.scss */
   .form-wrapper {
     padding: 10px !important;
