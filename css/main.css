@@ -1239,16 +1239,16 @@ table tr td:first-of-type {
     padding: 10px !important;
   }
 
-  .formmicrosoft,
+.formmicrosoft,
   .formmicrosoft iframe {
-    width: 100% !important;      /* Full screen width */
+    width: 430px !important;        /* Exact iPhone 16 Plus width */
     height: 800px !important;
-    max-width: none !important;   /* Ignore container limits */
+    max-width: none !important;
     margin: 0 !important;
     padding: 0 !important;
     position: relative !important;
     left: 50% !important;
-    transform: translateX(-50%) !important;  /* Centers perfectly */
+    transform: translateX(-50%) !important;
   }
 #addresslocation .address-table tr:nth-child(3) td:last-child {
   padding-left: 0 !important;
