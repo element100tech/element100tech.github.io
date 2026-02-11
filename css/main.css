@@ -1139,6 +1139,135 @@ table tr td:first-of-type {
   }
 	
 }
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+@media only screen and (width: 430px) and (height: 932px) {
+  /* Styles specifically for iPhone 16 Plus / 15 Plus */
+/* PREVENT HORIZONTAL SCROLL */
+  html, body {
+    overflow-x: hidden !important;
+    width: 100% !important;
+  }
+  .navbar-header {
+    display: flex !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+  }
+  
+  .navbar-header .navbar-toggle {
+    margin-left: auto !important;     /* ← FORCE toggle to RIGHT */
+    margin-right: -25px !important;   /* ← 8px MORE RIGHT */
+    order: 2 !important;
+  }
+  
+  .navbar-header .navbar-brand {
+    order: 1 !important;             /* ← KEEPS brand FIRST (left) */
+    margin-right: auto !important;
+  }
+	.navbar-brand {
+    margin-left: -8px !important;  /* pulls 8px more LEFT */
+    padding-left: 8px !important;  /* reduces internal padding */
+  }
+  .banner {
+    min-height: 580px !important;     /* Reasonable mobile height */
+    width: 100% !important;     
+    max-width: 100% !important;
+   margin-top: 0px !important;    /* Much smaller pull-up */
+  }
+  .banner .row {
+  padding-top: 0px !important;  /* moves entire first row down */
+}
+
+/* line 18, ../scss/modules/_sections.scss */
+.banner h1 {
+	font-size: 47px !important;
+  margin-bottom: 0px !important;
+
+}
+/* line 22, ../scss/modules/_sections.scss */
+.banner p {
+  max-width: 325px !important;
+}
+  #ghughu-banner-carousel,
+  .banner .carousel-inner,
+  .banner-item {
+    min-height: 580px !important;     /* All match banner height */
+	max-width: auto !important;
+	top: 0px !important;
+  }
+  /* line 2, ../scss/layout/responsive/_big-mobile.scss */
+
+.carousel-control.right {
+  right: 100px !important;   /* ← STICKS to 20px right */
+  left: auto !important;
+  top: 87% !important;
+}
+	.carousel-control.left {
+  right: auto !important;   /* ← STICKS to 20px right */
+  left: 100px !important;
+  top: 87% !important;  
+}
+	.carousel-indicators {
+  bottom: 10% !important; /* move UP from bottom */
+}
+  /* line 6, ../scss/layout/responsive/_big-mobile.scss */
+  .about-heading {
+    top: 25% !important;
+  }
+#address .about-heading {
+  position: relative !important;   /* back into normal flow */
+}
+#address .about-heading h1 {
+    margin-top: 65px !important;   /* or whatever you like */
+	font-size: 55px !important;
+  }	
+
+  #address .about-heading,
+  .team-member {
+    width: 100% !important;  /* 95% of viewport width */
+    max-width: 100% !important;  /* safety cap */
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    /*margin: 0 10px 10px 0 !important;   
+    padding: 0 !important;*/
+  }
+
+ #address2 .col-sm-6 {
+	 margin-top: 20px !important;
+ }
+  /* line 10, ../scss/layout/responsive/_big-mobile.scss */
+  .form-wrapper {
+    padding: 10px !important;
+  }
+
+  .formmicrosoft,
+  .formmicrosoft iframe {
+    width: 100% !important;      /* Full screen width */
+    height: 800px !important;
+    max-width: none !important;   /* Ignore container limits */
+    margin: 0 !important;
+    padding: 0 !important;
+    position: relative !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;  /* Centers perfectly */
+  }
+#addresslocation .address-table tr:nth-child(3) td:last-child {
+  padding-left: 0 !important;
+  text-align: left !important;
+  padding-right: 60px !important;     /* Uses POSITIVE padding instead */
+  width: auto !important;
+}
+	#addresslocation  tbody {
+   font-size: 80% !important;
+	}
+  /* Force ALL content to fit */
+  * {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+  }	
+
+}
+/*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
+
 @media (min-width: 750px) {
   /* line 3, ../scss/layout/responsive/_tablet.scss */
   body {
