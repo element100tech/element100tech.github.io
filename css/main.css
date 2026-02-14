@@ -1135,11 +1135,12 @@ table tr td:first-of-type {
    font-size: 80% !important;
 	}
   /* Force ALL content to fit */
+	/*
   * {
     max-width: 100% !important;
     box-sizing: border-box !important;
   }
-	
+	*/
 }
 /*XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX*/
 @media only screen and (width: 430px) and (height: 932px) {
