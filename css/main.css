@@ -1104,11 +1104,14 @@ table tr td:first-of-type {
     padding: 0 !important;*/
   }
   #address2 {
-    margin-bottom: 40px !important;
+    margin-bottom: 0px !important;
   }
   #address2 .col-sm-6 p {
     margin-top: 30px !important;     /* Adds space above text */
     padding-top: 15px !important;
+  }
+	  #address2 .col-sm-6:last-child * {
+    margin-top: 30px !important;
   }
   #inquiries {
     margin-top: 0px !important;           /* Zero top space */
