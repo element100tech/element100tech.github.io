@@ -1114,6 +1114,8 @@ table tr td:first-of-type {
 
   .formmicrosoft,
   .formmicrosoft iframe {
+    display: flex !important;
+	justify-content: center !important; 
     transform: scale(0.96);    /* 5% smaller */
 	  height: 800px !important;
     transform-origin: top center;
