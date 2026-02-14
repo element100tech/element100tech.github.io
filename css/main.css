@@ -1124,7 +1124,7 @@ table tr td:first-of-type {
     transform: scale(0.96);    /* 5% smaller */
 	  height: 800px !important;
     transform-origin: top center;
-	  margin-top: -30px !important;
+	  margin-top: -5px !important;
 	      margin: 0 !important;
     padding: 0 !important;
     position: static !important;
