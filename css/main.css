@@ -1103,27 +1103,31 @@ table tr td:first-of-type {
     /*margin: 0 10px 10px 0 !important;   
     padding: 0 !important;*/
   }
-
+  #address2 {
+    margin-top: -15px !important;
+    padding-top: 5px !important;
+  }
  #address2 .col-sm-6 {
-	 margin-top: 10px !important;
+	 margin-top: 0px !important;
  }
   /* line 10, ../scss/layout/responsive/_big-mobile.scss */
   .form-wrapper {
     padding: 4px !important;
   }
 
-  .formmicrosoft,
-  .formmicrosoft iframe {
+  .formmicrosoft {
     display: flex !important;
-	justify-content: center !important; 
+    justify-content: center !important;
+    overflow: hidden !important;
+  }
+  .formmicrosoft iframe {
     transform: scale(0.96);    /* 5% smaller */
 	  height: 800px !important;
     transform-origin: top center;
-	  margin-top: -10px !important;
+	  margin-top: -30px !important;
 	      margin: 0 !important;
     padding: 0 !important;
     position: static !important;
-	overflow: hidden !important;
 	  /*
     max-width: none !important;  
     margin: 0 !important;
