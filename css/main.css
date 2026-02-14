@@ -1109,7 +1109,7 @@ table tr td:first-of-type {
  }
   /* line 10, ../scss/layout/responsive/_big-mobile.scss */
   .form-wrapper {
-    padding: 10px !important;
+    padding: 4px !important;
   }
 
   .formmicrosoft,
