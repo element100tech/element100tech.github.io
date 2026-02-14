@@ -1115,6 +1115,7 @@ table tr td:first-of-type {
   .formmicrosoft,
   .formmicrosoft iframe {
     transform: scale(0.92);    /* 5% smaller */
+	  height: 800px !important;
     transform-origin: top center;
 	      margin: 0 !important;
     padding: 0 !important;
