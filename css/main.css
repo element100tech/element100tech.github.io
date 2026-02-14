@@ -1114,15 +1114,16 @@ table tr td:first-of-type {
 
   .formmicrosoft,
   .formmicrosoft iframe {
-    width: 100% !important;      /* Full screen width */
-    height: auto !important;
+    width: 100% !important;     
+    height: 800px !important;
+	  /*
 	overflow: visible !important;
-    max-width: none !important;   /* Ignore container limits */
+    max-width: none !important;  
     margin: 0 !important;
     padding: 0 !important;
     position: relative !important;
     left: 50% !important;
-    transform: translateX(-50%) !important;  /* Centers perfectly */
+    transform: translateX(-50%) !important;  */
   }
 #addresslocation .address-table tr:nth-child(3) td:last-child {
   padding-left: 0 !important;
