@@ -1108,10 +1108,10 @@ table tr td:first-of-type {
     padding-bottom: 20px !important;
   }
   #address2 .col-sm-6 {
-    margin-top: 0 !important;           /* Remove the 20px you added */
+    margin-top: 10px !important;           /* Remove the 20px you added */
   }
   #inquiries {
-    margin-top: 0 !important;           /* Zero top space */
+    margin-top: -5px !important;           /* Zero top space */
     margin-bottom: 0 !important;
     padding-top: 0 !important;
     padding-bottom: 0 !important;
