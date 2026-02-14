@@ -1103,15 +1103,15 @@ table tr td:first-of-type {
     /*margin: 0 10px 10px 0 !important;   
     padding: 0 !important;*/
   }
-	  #address2 {
-    margin-bottom: 40px !important;     /* Adds space BELOW */
-    padding-bottom: 20px !important;
+  #address2 {
+    margin-bottom: 40px !important;
   }
-  #address2 .col-sm-6 {
-    margin-top: 10px !important;           /* Remove the 20px you added */
+  #address2 .col-sm-6 p {
+    margin-top: 30px !important;     /* Adds space above text */
+    padding-top: 15px !important;
   }
   #inquiries {
-    margin-top: -5px !important;           /* Zero top space */
+    margin-top: 0px !important;           /* Zero top space */
     margin-bottom: 0 !important;
     padding-top: 0 !important;
     padding-bottom: 0 !important;
