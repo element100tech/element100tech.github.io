@@ -1028,7 +1028,7 @@ table tr td:first-of-type {
   
   .navbar-header .navbar-toggle {
     margin-left: auto !important;     /* ← FORCE toggle to RIGHT */
-    margin-right: -15px !important;   /* ← 8px MORE RIGHT */
+    margin-right: -5px !important;   /* ← 8px MORE RIGHT */
     order: 2 !important;
   }
   
@@ -1114,7 +1114,7 @@ table tr td:first-of-type {
 
   .formmicrosoft,
   .formmicrosoft iframe {
-    transform: scale(0.92);    /* 5% smaller */
+    transform: scale(0.96);    /* 5% smaller */
 	  height: 800px !important;
     transform-origin: top center;
 	      margin: 0 !important;
