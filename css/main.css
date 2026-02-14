@@ -1114,13 +1114,15 @@ table tr td:first-of-type {
 
   .formmicrosoft,
   .formmicrosoft iframe {
-    width: 100% !important;     
-    height: 800px !important;
+    transform: scale(0.95);    /* 5% smaller */
+    transform-origin: top center;
+    width: 105%;               /* compensate for scaling so it still fills */
+    height: 840px;             /* 800px / 0.95 to keep visible area similar */
 	      margin: 0 !important;
     padding: 0 !important;
     position: static !important;
+	overflow: hidden !important;
 	  /*
-	overflow: visible !important;
     max-width: none !important;  
     margin: 0 !important;
     padding: 0 !important;
